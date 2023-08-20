@@ -30,7 +30,7 @@ export default StyleSheet.create({
   },
   logoWrapper: {
     marginHorizontal: STANDARD_SPACING * 2,
-    padding: STANDARD_SPACING,
+    padding: STANDARD_SPACING * 1.2,
     borderRadius: STANDARD_BORDER_RADIUS * 5,
     width: scale(70),
     aspectRatio: 1,
@@ -48,7 +48,7 @@ export default StyleSheet.create({
   },
   brandSlogan: {
     fontFamily: POPPINS_MEDIUM,
-    fontSize: FONT_SIZE_XS,
+    fontSize: FONT_SIZE_XS - scale(0.7),
     color: IndependentColors.white,
   },
   drawerItem: {

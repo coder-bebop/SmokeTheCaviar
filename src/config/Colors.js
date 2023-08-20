@@ -12,8 +12,8 @@ const LightThemeColors = {
 // Defining dark theme colors
 const DarkThemeColors = {
   primary: '#000000',
-  secondary: '#E4C722',
-  secondaryDark: '#BEA02D',
+  secondary: '#FFFF00',
+  secondaryDark: '#E4C722',
   accent: '#FFFFFF',
   accentLightest: '#FFFFFF',
   textHighContrast: '#1C1807',

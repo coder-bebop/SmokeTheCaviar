@@ -58,11 +58,7 @@ const Invoice = ({navigation}) => {
             delay={500}
             style={[styles.logoAndPayModeWrapper]}>
             <Image
-              source={
-                isLightTheme
-                  ? require('../../assets/images/logos/logo_light.png')
-                  : require('../../assets/images/logos/logo_dark.png')
-              }
+              source={require('../../assets/images/logos/smokethecaviar_logo.jpg')}
               style={styles.logo}
             />
             <Text

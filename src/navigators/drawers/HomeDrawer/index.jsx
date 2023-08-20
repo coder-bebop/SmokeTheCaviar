@@ -18,18 +18,14 @@ import SupportStack from '../../stacks/SupportStack';
 import PoliciesStack from '../../stacks/PoliciesStack';
 import {ThemeContext} from '../../../theming/contexts/ThemeContext';
 import HomeLightGreySvg from '../../../assets/icons/svg/ic_home_light_grey.svg';
-import HomeDarkGreenSvg from '../../../assets/icons/svg/ic_home_dark_green.svg';
+import HomeDarkGoldSvg from '../../../assets/icons/svg/ic_home_dark_gold.svg';
 import CallLightGreySvg from '../../../assets/icons/svg/ic_call_light_grey.svg';
-import CallDarkGreenSvg from '../../../assets/icons/svg/ic_call_dark_green.svg';
+import CallDarkGoldSvg from '../../../assets/icons/svg/ic_call_dark_gold.svg';
 import PaperLightGreySvg from '../../../assets/icons/svg/ic_paper_light_grey.svg';
-import PaperDarkGreenSvg from '../../../assets/icons/svg/ic_paper_dark_green.svg';
+import PaperDarkGoldSvg from '../../../assets/icons/svg/ic_paper_dark_gold.svg';
 import LoginLightGreySvg from '../../../assets/icons/svg/ic_login_light_grey.svg';
-import LoginDarkGreenSvg from '../../../assets/icons/svg/ic_login_dark_green.svg';
-import UsersLightGreySvg from '../../../assets/icons/svg/ic_users_light_grey.svg';
-import UsersDarkGreenSvg from '../../../assets/icons/svg/ic_users_dark_green.svg';
+import LoginDarkGoldSvg from '../../../assets/icons/svg/ic_login_dark_Gold.svg';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
-import Contacts from '../../../screens/Contacts';
-import ArrowLeftWhiteSvg from '../../../assets/icons/svg/ic_arrow_left_white.svg';
 import styles from './styles';
 import {IndependentColors} from '../../../config/Colors';
 
@@ -53,11 +49,7 @@ const CustomDrawerContent = props => {
         style={styles.drawerHeaderImageBackground}>
         <View style={[styles.logoWrapper, {backgroundColor: theme.primary}]}>
           <Image
-            source={
-              isLightTheme
-                ? require('../../../assets/images/logos/logo_light.png')
-                : require('../../../assets/images/logos/logo_dark.png')
-            }
+            source={require('../../../assets/images/logos/smokethecaviar_logo.jpg')}
             style={styles.logo}
           />
         </View>
@@ -74,7 +66,8 @@ const CustomDrawerContent = props => {
         <DrawerItemList {...props} />
       </DrawerContentScrollView>
 
-      {/* Custom drawer item */}
+      {/*
+      // Custom drawer item
       <View>
         <DrawerItem
           label="App Version 1.0.0 - May, 2023"
@@ -84,6 +77,7 @@ const CustomDrawerContent = props => {
           ]}
         />
       </View>
+      */}
     </View>
   );
 };
@@ -138,7 +132,7 @@ const HomeDrawer = () => {
           drawerLabel: 'Home',
           drawerIcon: ({focused}) =>
             focused ? (
-              <HomeDarkGreenSvg
+              <HomeDarkGoldSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
                 height={STANDARD_VECTOR_ICON_SIZE}
               />
@@ -159,7 +153,7 @@ const HomeDrawer = () => {
           drawerLabel: 'Help & Support',
           drawerIcon: ({focused}) =>
             focused ? (
-              <CallDarkGreenSvg
+              <CallDarkGoldSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
                 height={STANDARD_VECTOR_ICON_SIZE}
               />
@@ -180,7 +174,7 @@ const HomeDrawer = () => {
           drawerLabel: 'Legal Policies',
           drawerIcon: ({focused}) =>
             focused ? (
-              <PaperDarkGreenSvg
+              <PaperDarkGoldSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
                 height={STANDARD_VECTOR_ICON_SIZE}
               />
@@ -201,7 +195,7 @@ const HomeDrawer = () => {
           drawerLabel: 'Account Login',
           drawerIcon: ({focused}) =>
             focused ? (
-              <LoginDarkGreenSvg
+              <LoginDarkGoldSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
                 height={STANDARD_VECTOR_ICON_SIZE}
               />
@@ -215,6 +209,7 @@ const HomeDrawer = () => {
         }}
       />
 
+      {/*
       <Drawer.Screen
         name="Contacts"
         component={Contacts}
@@ -223,7 +218,7 @@ const HomeDrawer = () => {
           drawerLabel: 'Contacts',
           drawerIcon: ({focused}) =>
             focused ? (
-              <UsersDarkGreenSvg
+              <UsersDarkGoldSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
                 height={STANDARD_VECTOR_ICON_SIZE}
               />
@@ -236,6 +231,7 @@ const HomeDrawer = () => {
           drawerLabelStyle: styles.drawerItemLabel,
         }}
       />
+      */}
     </Drawer.Navigator>
   );
 };
