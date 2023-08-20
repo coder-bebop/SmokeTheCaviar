@@ -62,8 +62,8 @@ const CustomDrawerContent = props => {
           />
         </View>
         <View>
-          <Text style={styles.brandName}>PlantMart</Text>
-          <Text style={styles.brandSlogan}>World of indoor plants!</Text>
+          <Text style={styles.brandName}>Smoke The Caviar</Text>
+          <Text style={styles.brandSlogan}>Happiness is now a choice!</Text>
         </View>
       </ImageBackground>
 
@@ -77,7 +77,7 @@ const CustomDrawerContent = props => {
       {/* Custom drawer item */}
       <View>
         <DrawerItem
-          label="App Version 1.0.0 - May, 2023"
+          label="App Version 1.0.0 - Aug, 2023"
           labelStyle={[
             styles.drawerItemLabel,
             {color: theme.textLowContrast, alignSelf: 'center'},

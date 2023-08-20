@@ -62,8 +62,8 @@ const CustomDrawerContent = props => {
           />
         </View>
         <View>
-          <Text style={styles.brandName}>PlantMart</Text>
-          <Text style={styles.brandSlogan}>World of indoor plants!</Text>
+          <Text style={styles.brandName}>Smoke The Caviar</Text>
+          <Text style={styles.brandSlogan}>Happiness is now a choice!</Text>
         </View>
       </ImageBackground>
 

@@ -167,23 +167,27 @@ const Settings = ({navigation}) => {
         {/* Vertical spacer */}
         <View style={styles.verticalSpacer} />
 
-        {/* Section title component */}
-        <SectionTitle title="Appearance" />
+    {/* MODULE TO CHANGE THE THEME ON-SCREEN */}
 
-        {/* Vertical spacer */}
-        <View style={styles.verticalSpacer} />
+    {/*
+      // Section title component
+      <SectionTitle title="Appearance" />
 
-        {/* Switch list */}
-        <SwitchList
-          label="App Theme"
-          labelInfo={`Switch to ${isLightTheme ? 'dark' : 'light'} mode.`}
-          trackActiveColor={Track_Active_Color}
-          trackInactiveColor={Track_Inactive_Color}
-          thumbActiveColor={Thumb_Active_Color}
-          thumbInactiveColor={Thumb_Inactive_Color}
-          onValueChange={_toggleThemeSwitch}
-          value={isThemeSwitchOn}
-        />
+      // Vertical spacer
+      <View style={styles.verticalSpacer} />
+
+      // Switch list
+      <SwitchList
+        label="App Theme"
+        labelInfo={`Switch to ${isLightTheme ? 'dark' : 'light'} mode.`}
+        trackActiveColor={Track_Active_Color}
+        trackInactiveColor={Track_Inactive_Color}
+        thumbActiveColor={Thumb_Active_Color}
+        thumbInactiveColor={Thumb_Inactive_Color}
+        onValueChange={_toggleThemeSwitch}
+        value={isThemeSwitchOn}
+      />
+      */}
       </ScrollView>
     </View>
   );
