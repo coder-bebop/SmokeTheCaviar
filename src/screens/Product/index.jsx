@@ -13,8 +13,8 @@ import {SCREEN_WIDTH, STANDARD_VECTOR_ICON_SIZE} from '../../config/Constants';
 import GridViewProductsData from '../../data/GridViewProductsData';
 import HeartDarkGreenSvg from '../../assets/icons/svg/ic_heart_dark_green.svg';
 import StarSvg from '../../assets/icons/svg/ic_star.svg';
-import SvgPlus from '../../assets/icons/svg/ic_plus_dark_green.svg';
-import SvgMinus from '../../assets/icons/svg/ic_minus_dark_green.svg';
+import SvgPlus from '../../assets/icons/svg/ic_plus_dark_gold.svg';
+import SvgMinus from '../../assets/icons/svg/ic_minus_dark_gold.svg';
 import styles from './styles';
 
 // Functional component

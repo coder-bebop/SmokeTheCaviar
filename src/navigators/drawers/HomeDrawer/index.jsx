@@ -24,7 +24,7 @@ import CallDarkGoldSvg from '../../../assets/icons/svg/ic_call_dark_gold.svg';
 import PaperLightGreySvg from '../../../assets/icons/svg/ic_paper_light_grey.svg';
 import PaperDarkGoldSvg from '../../../assets/icons/svg/ic_paper_dark_gold.svg';
 import LoginLightGreySvg from '../../../assets/icons/svg/ic_login_light_grey.svg';
-import LoginDarkGoldSvg from '../../../assets/icons/svg/ic_login_dark_Gold.svg';
+import LoginDarkGoldSvg from '../../../assets/icons/svg/ic_login_dark_gold.svg';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
 import styles from './styles';
 import {IndependentColors} from '../../../config/Colors';
@@ -45,7 +45,7 @@ const CustomDrawerContent = props => {
     <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
       {/* Header image background */}
       <ImageBackground
-        source={require('../../../assets/images/backgrounds/liquid-cheese-background.png')}
+        source={require('../../../assets/images/backgrounds/drawer-background.png')}
         style={styles.drawerHeaderImageBackground}>
         <View style={[styles.logoWrapper, {backgroundColor: theme.primary}]}>
           <Image

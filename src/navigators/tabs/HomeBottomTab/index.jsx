@@ -8,13 +8,13 @@ import SettingsStack from '../../stacks/SettingsStack';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
 import {ThemeContext} from '../../../theming/contexts/ThemeContext';
 import HomeLightGreenSvg from '../../../assets/icons/svg/ic_home_light_green.svg';
-import HomeDarkGreenSvg from '../../../assets/icons/svg/ic_home_dark_green.svg';
+import HomeDarkGoldSvg from '../../../assets/icons/svg/ic_home_dark_gold.svg';
 import BagLightGreenSvg from '../../../assets/icons/svg/ic_bag_light_green.svg';
-import BagDarkGreenSvg from '../../../assets/icons/svg/ic_bag_dark_green.svg';
+import BagDarkGoldSvg from '../../../assets/icons/svg/ic_bag_dark_gold.svg';
 import PersonLightGreenSvg from '../../../assets/icons/svg/ic_person_light_green.svg';
-import PersonDarkGreenSvg from '../../../assets/icons/svg/ic_person_dark_green.svg';
+import PersonDarkGoldSvg from '../../../assets/icons/svg/ic_person_dark_gold.svg';
 import GearLightGreenSvg from '../../../assets/icons/svg/ic_gear_light_green.svg';
-import GearDarkGreenSvg from '../../../assets/icons/svg/ic_gear_dark_green.svg';
+import GearDarkGoldSvg from '../../../assets/icons/svg/ic_gear_dark_gold.svg';
 import styles from './styles';
 
 // Creating bottom tab navigator
@@ -49,7 +49,7 @@ const HomeBottomTab = () => {
         options={{
           tabBarIcon: ({focused}) =>
             focused ? (
-              <HomeDarkGreenSvg
+              <HomeDarkGoldSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
                 height={STANDARD_VECTOR_ICON_SIZE}
               />
@@ -67,7 +67,7 @@ const HomeBottomTab = () => {
         options={{
           tabBarIcon: ({focused}) =>
             focused ? (
-              <BagDarkGreenSvg
+              <BagDarkGoldSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
                 height={STANDARD_VECTOR_ICON_SIZE}
               />
@@ -90,7 +90,7 @@ const HomeBottomTab = () => {
         options={{
           tabBarIcon: ({focused}) =>
             focused ? (
-              <PersonDarkGreenSvg
+              <PersonDarkGoldSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
                 height={STANDARD_VECTOR_ICON_SIZE}
               />
@@ -108,7 +108,7 @@ const HomeBottomTab = () => {
         options={{
           tabBarIcon: ({focused}) =>
             focused ? (
-              <GearDarkGreenSvg
+              <GearDarkGoldSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
                 height={STANDARD_VECTOR_ICON_SIZE}
               />

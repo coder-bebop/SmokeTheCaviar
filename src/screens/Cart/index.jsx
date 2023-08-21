@@ -45,10 +45,10 @@ const Cart = ({navigation}) => {
         animation="fadeInUp"
         delay={300}
         style={styles.cartTotalWrapper}>
-        <Text style={[styles.cartTotalLabel, {color: theme.textHighContrast}]}>
+        <Text style={[styles.cartTotalLabel, {color: theme.accent}]}>
           Cart total
         </Text>
-        <Text style={[styles.cartTotal, {color: theme.textHighContrast}]}>
+        <Text style={[styles.cartTotal, {color: theme.accent}]}>
           $60.57
         </Text>
       </Animatable.View>

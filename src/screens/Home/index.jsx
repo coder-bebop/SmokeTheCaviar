@@ -93,7 +93,7 @@ const Home = ({navigation}) => {
                       <Text
                         style={[
                           styles.categoryLabel,
-                          {color: IndependentColors.white},
+                          {color: theme.textLowContrast},
                         ]}>
                         View All
                       </Text>

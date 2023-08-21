@@ -31,7 +31,7 @@ const App = () => {
   return (
     <ThemeContextProvider>
       <NavigationContainer>
-        <Statusbar backgroundColor="#588157" barStyle="light-content" />
+        <Statusbar backgroundColor="#000000" barStyle="light-content" />
         <SafeAreaView style={AppStyles.safeAreaView}>
           <HomeDrawer />
         </SafeAreaView>

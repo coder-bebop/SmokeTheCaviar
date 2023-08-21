@@ -11,7 +11,6 @@ import SectionTitle from '../../components/headings/SectionTitle';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../config/Constants';
 import NavigationLink from '../../components/links/NavigationLink';
 import styles from './styles';
-import SwitchList from '../../components/switches/SwitchList';
 import {IndependentColors} from '../../config/Colors';
 
 // Functional component
@@ -34,11 +33,13 @@ const Settings = ({navigation}) => {
     _toggleTheme();
   }, [isThemeSwitchOn]);
 
+  /*
   // Constants
   const Track_Active_Color = theme.accent;
   const Track_Inactive_Color = theme.accentLightest;
   const Thumb_Active_Color = IndependentColors.white;
   const Thumb_Inactive_Color = theme.secondary;
+  */
 
   // Returning
   return (

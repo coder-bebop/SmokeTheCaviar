@@ -21,7 +21,7 @@ const NavigationLink = ({leftIcon, label, onPress}) => {
           style={[styles.linkIconWrapper, {backgroundColor: theme.secondary}]}>
           {leftIcon}
         </View>
-        <Text style={[styles.linkLabel, {color: theme.textLowContrast}]}>
+        <Text style={[styles.linkLabel, {color: theme.accent}]}>
           {label}
         </Text>
       </View>

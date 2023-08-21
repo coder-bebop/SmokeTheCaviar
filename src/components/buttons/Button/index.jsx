@@ -15,9 +15,9 @@ const Button = ({label, onPress}) => {
   // Returning
   return (
     <TouchableOpacity
-      style={[styles.button, {backgroundColor: theme.accent}]}
+      style={[styles.button, {backgroundColor: theme.secondaryDark}]}
       onPress={onPress}>
-      <Text style={[styles.buttonLabel, {color: IndependentColors.white}]}>
+      <Text style={[styles.buttonLabel, {color: theme.accent}]}>
         {label}
       </Text>
     </TouchableOpacity>
