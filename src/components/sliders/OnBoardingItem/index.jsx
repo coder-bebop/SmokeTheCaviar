@@ -20,7 +20,7 @@ const OnBoardingItem = ({image, title, info}) => {
       <Text style={[styles.title, {color: theme.textHighContrast}]}>
         {title}
       </Text>
-      <Text style={[styles.info, {color: theme.accent}]}>{info}</Text>
+      <Text style={[styles.info, {color: theme.white}]}>{info}</Text>
     </View>
   );
 };

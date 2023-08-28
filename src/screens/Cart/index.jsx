@@ -19,7 +19,7 @@ const Cart = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Scroll View */}
       <Animatable.View
         animation="fadeInUp"
@@ -45,10 +45,10 @@ const Cart = ({navigation}) => {
         animation="fadeInUp"
         delay={300}
         style={styles.cartTotalWrapper}>
-        <Text style={[styles.cartTotalLabel, {color: theme.accent}]}>
+        <Text style={[styles.cartTotalLabel, {color: theme.white}]}>
           Cart total
         </Text>
-        <Text style={[styles.cartTotal, {color: theme.accent}]}>
+        <Text style={[styles.cartTotal, {color: theme.white}]}>
           $60.57
         </Text>
       </Animatable.View>

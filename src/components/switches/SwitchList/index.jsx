@@ -22,7 +22,7 @@ const SwitchList = ({
 
   // Returning
   return (
-    <View style={[styles.list, {borderBottomColor: theme.secondary}]}>
+    <View style={[styles.list, {borderBottomColor: theme.lightYellow}]}>
       {/* Label wrapper */}
       <View style={styles.labelWrapper}>
         <View>
@@ -44,7 +44,7 @@ const SwitchList = ({
           thumbColor={value ? thumbActiveColor : thumbInactiveColor}
           onValueChange={onValueChange}
           value={value}
-          ios_backgroundColor={theme.secondary}
+          ios_backgroundColor={theme.lightYellow}
           style={styles.switch}
         />
       </View>

@@ -13,7 +13,7 @@ const HorizontalDivider = () => {
 
   // Returning
   return (
-    <View style={[styles.dividerLine, {backgroundColor: theme.secondary}]} />
+    <View style={[styles.dividerLine, {backgroundColor: theme.lightYellow}]} />
   );
 };
 

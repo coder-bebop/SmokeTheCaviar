@@ -30,7 +30,7 @@ const SettingsStack = () => {
     headerTintColor: IndependentColors.white,
     headerStyle: [
       {
-        backgroundColor: theme.accent,
+        backgroundColor: theme.white,
         elevation: 0,
         shadowOpacity: 0,
         borderBottomWidth: 0,

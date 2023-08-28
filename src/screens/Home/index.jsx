@@ -29,7 +29,7 @@ const Home = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       <Animatable.View animation="fadeInUp" delay={100}>
         <ScrollView showsVerticalScrollIndicator={false} bounces={false}>
           {/* Header */}
@@ -87,7 +87,7 @@ const Home = ({navigation}) => {
                       key={index}
                       style={[
                         styles.categoryLabelWrapper,
-                        {backgroundColor: theme.accent},
+                        {backgroundColor: theme.darkYellow},
                       ]}
                       onPress={() => navigation.navigate('List View Products')}>
                       <Text
@@ -103,7 +103,7 @@ const Home = ({navigation}) => {
                       key={index}
                       style={[
                         styles.categoryLabelWrapper,
-                        {backgroundColor: theme.secondary},
+                        {backgroundColor: theme.darkYellow},
                       ]}
                       onPress={() => navigation.navigate('List View Products')}>
                       <Text

@@ -51,7 +51,7 @@ const BuyerReview = ({
       style={[
         styles.buyerReviewCard,
         {
-          backgroundColor: theme.secondary,
+          backgroundColor: theme.lightYellow,
           marginBottom: isLastItem ? 0 : STANDARD_SPACING * 3,
         },
       ]}>
@@ -62,7 +62,7 @@ const BuyerReview = ({
             <Text style={[styles.buyerName, {color: theme.textHighContrast}]}>
               {buyerName}
             </Text>
-            <Text style={[styles.reviewAge, {color: theme.accent}]}>
+            <Text style={[styles.reviewAge, {color: theme.white}]}>
               ({reviewAge})
             </Text>
           </View>

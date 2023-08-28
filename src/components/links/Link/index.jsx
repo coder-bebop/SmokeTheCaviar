@@ -14,7 +14,7 @@ const Link = ({label, onPress}) => {
   // Returning
   return (
     <TouchableOpacity onPress={onPress}>
-      <Text style={[styles.label, {color: theme.accent}]}>{label}</Text>
+      <Text style={[styles.label, {color: theme.white}]}>{label}</Text>
     </TouchableOpacity>
   );
 };

@@ -26,7 +26,7 @@ const Notification = ({
         {marginBottom: isLastItem ? 0 : STANDARD_SPACING * 3},
       ]}>
       <View
-        style={[styles.avatarImageWrapper, {backgroundColor: theme.secondary}]}>
+        style={[styles.avatarImageWrapper, {backgroundColor: theme.lightYellow}]}>
         <Image source={avatarImage} style={styles.avatarImage} />
       </View>
 
@@ -40,7 +40,7 @@ const Notification = ({
           </Text>
 
           {/* Notification age */}
-          <Text style={[styles.notificationAge, {color: theme.accent}]}>
+          <Text style={[styles.notificationAge, {color: theme.white}]}>
             {notificationAge}
           </Text>
         </View>

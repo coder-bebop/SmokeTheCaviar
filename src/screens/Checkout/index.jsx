@@ -26,7 +26,7 @@ const Checkout = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Scrollview */}
       <ScrollView
         bounces={false}
@@ -55,31 +55,33 @@ const Checkout = ({navigation}) => {
           ))}
         </Animatable.View>
 
-        {/* Section title component */}
+        {/*
+        // Section title component
         <Animatable.View animation="fadeInUp" delay={500}>
           <SectionTitle title="Coupon code" />
         </Animatable.View>
 
-        {/* Vertical spacer */}
+        // Vertical spacer
         <View style={styles.verticalSpacer} />
 
-        {/* Text input wrapper */}
+        // Text input wrapper
         <Animatable.View
           animation="fadeInUp"
           delay={700}
           style={[
             styles.textInputWrapper,
             {
-              borderColor: theme.secondaryDark,
-              backgroundColor: theme.secondary,
+              backgroundColor: theme.darkYellow,
             },
           ]}>
-          {/* Text input */}
+            
+          
+          //Text input
           <TextInput placeholder="Enter coupon code" style={styles.textInput} />
 
-          {/* Button */}
+          // Button
           <TouchableOpacity
-            style={[styles.applyCouponButton, {backgroundColor: theme.accent}]}>
+            style={[styles.applyCouponButton, {backgroundColor: theme.white}]}>
             <Text
               style={[
                 styles.applyCouponButtonLabel,
@@ -89,6 +91,7 @@ const Checkout = ({navigation}) => {
             </Text>
           </TouchableOpacity>
         </Animatable.View>
+      */}
 
         {/* Spacer */}
         <View style={styles.verticalSpacer} />
@@ -103,10 +106,10 @@ const Checkout = ({navigation}) => {
 
         {/* Subtotal wrapper */}
         <Animatable.View animation="fadeInUp" delay={1100} style={styles.row}>
-          <Text style={[styles.rowLabel, {color: theme.textLowContrast}]}>
+          <Text style={[styles.rowLabel, {color: theme.lightYellow}]}>
             Subtotal
           </Text>
-          <Text style={[styles.rowAmount, {color: theme.textHighContrast}]}>
+          <Text style={[styles.rowAmount, {color: theme.darkYellow}]}>
             $60.57
           </Text>
         </Animatable.View>
@@ -120,12 +123,12 @@ const Checkout = ({navigation}) => {
             style={[
               styles.rowLabel,
               {
-                color: theme.textLowContrast,
+                color: theme.lightYellow,
               },
             ]}>
             Shipping cost
           </Text>
-          <Text style={[styles.rowAmount, {color: theme.textHighContrast}]}>
+          <Text style={[styles.rowAmount, {color: theme.darkYellow}]}>
             $10.07
           </Text>
         </Animatable.View>
@@ -135,10 +138,10 @@ const Checkout = ({navigation}) => {
 
         {/* Total payable wrapper */}
         <Animatable.View animation="fadeInUp" delay={1500} style={styles.row}>
-          <Text style={[styles.rowLabel, {color: theme.textLowContrast}]}>
+          <Text style={[styles.rowLabel, {color: theme.lightYellow}]}>
             Total payable
           </Text>
-          <Text style={[styles.rowAmount, {color: theme.textHighContrast}]}>
+          <Text style={[styles.rowAmount, {color: theme.darkYellow}]}>
             $70.64
           </Text>
         </Animatable.View>

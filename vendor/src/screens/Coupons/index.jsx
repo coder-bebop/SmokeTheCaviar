@@ -18,7 +18,7 @@ const Coupons = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       <Animatable.View
         animation="fadeInUp"
         delay={100}

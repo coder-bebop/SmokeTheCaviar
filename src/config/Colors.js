@@ -1,9 +1,9 @@
 // Defining light theme colors
 const LightThemeColors = {
-  primary: '#000001',
-  secondary: '#000001',
-  secondaryDark: '#000001',
-  accent: '#000001',
+  black: '#000001',
+  lightYellow: '#000001',
+  darkYellow: '#000001',
+  white: '#000001',
   accentLightest: '#000001',
   textHighContrast: '#000001',
   textLowContrast: '#000001',
@@ -11,10 +11,10 @@ const LightThemeColors = {
 
 // Defining dark theme colors
 const DarkThemeColors = {
-  primary: '#000000',
-  secondary: '#FFFF00',
-  secondaryDark: '#E4C722',
-  accent: '#FFFFFF',
+  black: '#000000',
+  lightYellow: '#FFFF00',
+  darkYellow: '#E4C722',
+  white: '#FFFFFF',
   accentLightest: '#FFFFFF',
   textHighContrast: '#1C1807',
   textLowContrast: '#2F280B',

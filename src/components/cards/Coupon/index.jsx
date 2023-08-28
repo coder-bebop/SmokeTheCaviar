@@ -23,7 +23,7 @@ const Coupon = ({offer, code, logo}) => {
       <Text style={[styles.offer, {color: theme.textHighContrast}]}>
         {offer}
       </Text>
-      <Text style={[styles.brand, {color: theme.accent}]}>{code}</Text>
+      <Text style={[styles.brand, {color: theme.white}]}>{code}</Text>
       <View style={[styles.brandLogoWrapper]}>
         <Image style={styles.brandLogo} source={logo} />
       </View>

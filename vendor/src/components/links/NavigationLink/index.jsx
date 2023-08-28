@@ -18,7 +18,7 @@ const NavigationLink = ({leftIcon, label, onPress}) => {
     <TouchableOpacity style={styles.link} onPress={onPress}>
       <View style={styles.linkIconAndLabelWrapper}>
         <View
-          style={[styles.linkIconWrapper, {backgroundColor: theme.secondary}]}>
+          style={[styles.linkIconWrapper, {backgroundColor: theme.lightYellow}]}>
           {leftIcon}
         </View>
         <Text style={[styles.linkLabel, {color: theme.textLowContrast}]}>

@@ -28,7 +28,7 @@ const WalletTransactionCard = ({
       ]}>
       <View style={styles.dateTimeAndVendorWrapper}>
         {/* Transaction date */}
-        <View style={[styles.dateWrapper, {backgroundColor: theme.accent}]}>
+        <View style={[styles.dateWrapper, {backgroundColor: theme.white}]}>
           <Text style={styles.date}>{date}</Text>
           <Text style={styles.month}>{month}</Text>
         </View>

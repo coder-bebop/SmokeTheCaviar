@@ -29,8 +29,8 @@ const Address = ({
       style={[
         styles.addressCard,
         {
-          backgroundColor: isChecked ? theme.accentLightest : theme.secondary,
-          borderColor: isChecked ? theme.accent : theme.secondaryDark,
+          backgroundColor: isChecked ? theme.accentLightest : theme.lightYellow,
+          borderColor: isChecked ? theme.white : theme.darkYellow,
           marginBottom: isLastItem ? 0 : STANDARD_SPACING * 3,
         },
       ]}>
@@ -67,8 +67,8 @@ const Address = ({
       <View
         style={[
           styles.checkedIconWrapper,
-          {backgroundColor: isChecked ? theme.accent : theme.primary},
-          {borderColor: isChecked ? theme.accent : theme.secondaryDark},
+          {backgroundColor: isChecked ? theme.white : theme.black},
+          {borderColor: isChecked ? theme.white : theme.darkYellow},
         ]}>
         {isLightTheme ? (
           <SvgCheckmarkWhite

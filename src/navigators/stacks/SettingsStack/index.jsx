@@ -27,10 +27,10 @@ const SettingsStack = () => {
   const screenOptions = ({navigation}) => ({
     headerTitleAlign: 'center',
     headerTitleStyle: [styles.headerTitle],
-    headerTintColor: IndependentColors.white,
+    headerTintColor: theme.white,
     headerStyle: [
       {
-        backgroundColor: theme.accent,
+        backgroundColor: theme.black,
         elevation: 0,
         shadowOpacity: 0,
         borderBottomWidth: 0,

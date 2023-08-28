@@ -34,7 +34,7 @@ const HomeBottomTab = () => {
     tabBarShowLabel: false,
     tabBarStyle: {
       borderTopWidth: 0,
-      backgroundColor: theme.primary,
+      backgroundColor: theme.black,
       elevation: 0,
       height: scale(50),
     },
@@ -80,7 +80,7 @@ const HomeBottomTab = () => {
           tabBarBadge: 2,
           tabBarBadgeStyle: [
             styles.tabBarBadgeStyle,
-            {backgroundColor: theme.accent},
+            {backgroundColor: theme.white},
           ],
         }}
       />

@@ -44,19 +44,19 @@ const NotificationSettings = () => {
   }, [isEnabledFive]);
 
   // Constants
-  const Track_Active_Color = theme.accent;
+  const Track_Active_Color = theme.white;
   const Track_Inactive_Color = theme.accentLightest;
   const Thumb_Active_Color = IndependentColors.white;
-  const Thumb_Inactive_Color = theme.secondary;
+  const Thumb_Inactive_Color = theme.lightYellow;
 
   // Returning
   return (
     <Animatable.View
       delay={100}
       animation="fadeInDown"
-      style={[styles.mainWrapper, {backgroundColor: theme.accent}]}>
+      style={[styles.mainWrapper, {backgroundColor: theme.white}]}>
       {/* Header */}
-      <View style={[styles.header, {backgroundColor: theme.accent}]}>
+      <View style={[styles.header, {backgroundColor: theme.white}]}>
         {/* Page title */}
         <Animatable.Text
           delay={300}
@@ -78,7 +78,7 @@ const NotificationSettings = () => {
       <Animatable.View
         delay={700}
         animation="fadeInUp"
-        style={[styles.menuItemsWrapper, {backgroundColor: theme.primary}]}>
+        style={[styles.menuItemsWrapper, {backgroundColor: theme.black}]}>
         {/* Scrollview */}
         <ScrollView bounces={false} showsVerticalScrollIndicator={false}>
           {/* Switch list components */}

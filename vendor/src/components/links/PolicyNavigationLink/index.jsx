@@ -21,7 +21,7 @@ const NavigationLink = ({label, borderBottomColor, onPress}) => {
       onPress={onPress}>
       <View style={styles.leftIconAndLinkLabelWrapper}>
         <View
-          style={[styles.leftIconWrapper, {backgroundColor: theme.primary}]}>
+          style={[styles.leftIconWrapper, {backgroundColor: theme.black}]}>
           <FileSvg
             width={STANDARD_VECTOR_ICON_SIZE}
             height={STANDARD_VECTOR_ICON_SIZE}

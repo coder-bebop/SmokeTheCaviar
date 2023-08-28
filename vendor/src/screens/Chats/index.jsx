@@ -36,7 +36,7 @@ const Chats = ({navigation}) => {
   const LeftMessage = ({type, message, time}) =>
     type === 'text' ? (
       <View
-        style={[styles.leftMessageWrapper, {backgroundColor: theme.secondary}]}>
+        style={[styles.leftMessageWrapper, {backgroundColor: theme.lightYellow}]}>
         <Text style={[styles.leftMessageText, {color: theme.textLowContrast}]}>
           {message}
         </Text>
@@ -46,7 +46,7 @@ const Chats = ({navigation}) => {
       </View>
     ) : (
       <View
-        style={[styles.leftImageWrapper, {backgroundColor: theme.secondary}]}>
+        style={[styles.leftImageWrapper, {backgroundColor: theme.lightYellow}]}>
         <Image style={styles.image} source={message} />
       </View>
     );
@@ -55,7 +55,7 @@ const Chats = ({navigation}) => {
   const RightMessage = ({type, message, time}) =>
     type === 'text' ? (
       <View
-        style={[styles.rightMessageWrapper, {backgroundColor: theme.accent}]}>
+        style={[styles.rightMessageWrapper, {backgroundColor: theme.white}]}>
         <Text
           style={[styles.rightMessageText, {color: IndependentColors.white}]}>
           {message}
@@ -67,19 +67,19 @@ const Chats = ({navigation}) => {
       </View>
     ) : (
       <View
-        style={[styles.rightImageWrapper, {backgroundColor: theme.secondary}]}>
+        style={[styles.rightImageWrapper, {backgroundColor: theme.lightYellow}]}>
         <Image style={styles.image} source={message} />
       </View>
     );
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Header */}
       <Animatable.View
         animation="fadeInUp"
         delay={100}
-        style={[styles.header, {borderBottomColor: theme.secondary}]}>
+        style={[styles.header, {borderBottomColor: theme.lightYellow}]}>
         {/* Back icon & user info wrapper */}
         <View style={styles.backIconAndUserInfoWrapper}>
           {/* Back icon wrapper */}
@@ -102,7 +102,7 @@ const Chats = ({navigation}) => {
           {/* Avatar, name & status wrapper */}
           <View style={styles.avatarNameAndOnlineStatusWrapper}>
             {/* Avatar wrapper */}
-            <View style={[styles.avatarWrapper, {borderColor: theme.accent}]}>
+            <View style={[styles.avatarWrapper, {borderColor: theme.white}]}>
               <SvgMan1
                 width={STANDARD_USER_AVATAR_WRAPPER_SIZE * 0.8}
                 height={STANDARD_USER_AVATAR_WRAPPER_SIZE * 0.8}
@@ -112,8 +112,8 @@ const Chats = ({navigation}) => {
                 style={[
                   styles.onlineStatusBadge,
                   {
-                    backgroundColor: theme.accent,
-                    borderColor: theme.primary,
+                    backgroundColor: theme.white,
+                    borderColor: theme.black,
                   },
                 ]}
               />
@@ -124,7 +124,7 @@ const Chats = ({navigation}) => {
               <Text style={[styles.username, {color: theme.textHighContrast}]}>
                 Wendy Watson
               </Text>
-              <Text style={[styles.onlineStatus, {color: theme.accent}]}>
+              <Text style={[styles.onlineStatus, {color: theme.white}]}>
                 Online
               </Text>
             </View>
@@ -137,7 +137,7 @@ const Chats = ({navigation}) => {
           <TouchableOpacity
             style={[
               styles.callIconWrapper,
-              {backgroundColor: theme.secondary},
+              {backgroundColor: theme.lightYellow},
             ]}>
             <SvgPhoneIcon
               width={STANDARD_VECTOR_ICON_SIZE}
@@ -149,7 +149,7 @@ const Chats = ({navigation}) => {
           <TouchableOpacity
             style={[
               styles.videoCameraIconWrapper,
-              {backgroundColor: theme.secondary},
+              {backgroundColor: theme.lightYellow},
             ]}>
             <SvgVideoCameraIcon
               width={STANDARD_VECTOR_ICON_SIZE}
@@ -194,15 +194,15 @@ const Chats = ({navigation}) => {
         delay={500}
         style={[
           styles.footer,
-          {borderTopColor: theme.secondary, backgroundColor: theme.primary},
+          {borderTopColor: theme.lightYellow, backgroundColor: theme.black},
         ]}>
         {/* Text input wrapper & send button wrapper */}
         <View
           style={[
             styles.textInputWrapper,
             {
-              backgroundColor: theme.secondary,
-              borderColor: theme.secondaryDark,
+              backgroundColor: theme.lightYellow,
+              borderColor: theme.darkYellow,
             },
           ]}>
           <TextInput
@@ -225,7 +225,7 @@ const Chats = ({navigation}) => {
             <View
               style={[
                 styles.paperPlaneIconWrapper,
-                {backgroundColor: theme.accent},
+                {backgroundColor: theme.white},
               ]}>
               <SvgPaperPlanIcon
                 width={STANDARD_VECTOR_ICON_SIZE}

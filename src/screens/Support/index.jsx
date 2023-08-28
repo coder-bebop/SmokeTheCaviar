@@ -37,12 +37,12 @@ const Support = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Header */}
       <Animatable.View
         delay={100}
         animation="fadeInDown"
-        style={[styles.header, {backgroundColor: theme.accent}]}>
+        style={[styles.header, {backgroundColor: theme.white}]}>
         {/* Title */}
         <Animatable.Text
           delay={300}
@@ -90,7 +90,7 @@ const Support = ({navigation}) => {
             <Animatable.Text
               delay={1500}
               animation="fadeInUp"
-              style={[styles.question, {color: theme.accent}]}>
+              style={[styles.question, {color: theme.white}]}>
               Tell us how may we help you?
             </Animatable.Text>
 
@@ -116,7 +116,7 @@ const Support = ({navigation}) => {
           animation="fadeInUp"
           style={[
             styles.scrollViewWrapper,
-            {backgroundColor: theme.secondary},
+            {backgroundColor: theme.lightYellow},
           ]}>
           {/* Support list items scroll view */}
           <ScrollView
@@ -129,7 +129,7 @@ const Support = ({navigation}) => {
                 activeOpacity={1}
                 style={[
                   styles.supportListItem,
-                  {backgroundColor: theme.primary},
+                  {backgroundColor: theme.black},
                 ]}
                 onPress={_navigateToChatsScreen}>
                 {/* Support icon wrapper */}
@@ -172,7 +172,7 @@ const Support = ({navigation}) => {
                 activeOpacity={1}
                 style={[
                   styles.supportListItem,
-                  {backgroundColor: theme.primary},
+                  {backgroundColor: theme.black},
                 ]}
                 onPress={_navigateToContactScreen}>
                 {/* Support icon wrapper */}
@@ -203,7 +203,7 @@ const Support = ({navigation}) => {
                       {color: theme.textLowContrast},
                     ]}>
                     Mail us at{' '}
-                    <Text style={[styles.mailId, {color: theme.accent}]}>
+                    <Text style={[styles.mailId, {color: theme.white}]}>
                       suuport@foodbazaar.com
                     </Text>
                   </Text>
@@ -217,7 +217,7 @@ const Support = ({navigation}) => {
                 activeOpacity={1}
                 style={[
                   styles.supportListItem,
-                  {backgroundColor: theme.primary},
+                  {backgroundColor: theme.black},
                 ]}
                 onPress={_navigateToFaqsScreen}>
                 {/* Support icon wrapper */}

@@ -30,7 +30,7 @@ const Message = ({avatarSvg, senderName, messageAge, message, isLastItem}) => {
           </Text>
 
           {/* Message age */}
-          <Text style={[styles.messageAge, {color: theme.accent}]}>
+          <Text style={[styles.messageAge, {color: theme.white}]}>
             {messageAge}
           </Text>
         </View>

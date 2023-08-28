@@ -8,19 +8,19 @@ export const ThemeContextProvider = ({children}) => {
   // Local state
   const [theme, setTheme] = useState({
     lightTheme: {
-      primary: LightThemeColors.primary,
-      secondary: LightThemeColors.secondary,
-      secondaryDark: LightThemeColors.secondaryDark,
-      accent: LightThemeColors.accent,
+      black: LightThemeColors.black,
+      lightYellow: LightThemeColors.lightYellow,
+      darkYellow: LightThemeColors.darkYellow,
+      white: LightThemeColors.white,
       accentLightest: LightThemeColors.accentLightest,
       textHighContrast: LightThemeColors.textHighContrast,
       textLowContrast: LightThemeColors.textLowContrast,
     },
     darkTheme: {
-      primary: DarkThemeColors.primary,
-      secondary: DarkThemeColors.secondary,
-      secondaryDark: DarkThemeColors.secondaryDark,
-      accent: DarkThemeColors.accent,
+      black: DarkThemeColors.black,
+      lightYellow: DarkThemeColors.lightYellow,
+      darkYellow: DarkThemeColors.darkYellow,
+      white: DarkThemeColors.white,
       accentLightest: LightThemeColors.accentLightest,
       textHighContrast: DarkThemeColors.textHighContrast,
       textLowContrast: DarkThemeColors.textLowContrast,

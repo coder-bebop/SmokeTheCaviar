@@ -27,11 +27,11 @@ const OrderedProduct = ({
   // Returning
   return (
     <TouchableOpacity
-      style={[styles.productCard, {backgroundColor: theme.secondary}]}
+      style={[styles.productCard, {backgroundColor: theme.darkYellow}]}
       onPress={onPress}>
       {/* Product image wrapper */}
       <View
-        style={[styles.productImageWrapper, {backgroundColor: theme.primary}]}>
+        style={[styles.productImageWrapper, {backgroundColor: theme.black}]}>
         {/* Product image */}
         <Image source={productImage} style={styles.productImage} />
 
@@ -39,7 +39,7 @@ const OrderedProduct = ({
         <View
           style={[
             styles.moreProductsCountWrapper,
-            {backgroundColor: theme.secondary},
+            {backgroundColor: theme.darkYellow},
           ]}>
           <Text
             style={[styles.moreProductsCount, {color: theme.textHighContrast}]}>
@@ -69,7 +69,7 @@ const OrderedProduct = ({
                   width={STANDARD_VECTOR_ICON_SIZE * 0.75}
                   height={STANDARD_VECTOR_ICON_SIZE * 0.75}
                 />
-                <Text style={[styles.rating, {color: theme.accent}]}>
+                <Text style={[styles.rating, {color: theme.white}]}>
                   {rating.toFixed(1)}
                 </Text>
               </View>

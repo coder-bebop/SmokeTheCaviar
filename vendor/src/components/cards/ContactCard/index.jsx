@@ -29,7 +29,7 @@ const ContactCard = ({
     <View
       style={[
         styles.contactWrapper,
-        {borderBottomWidth, borderBottomColor: theme.secondary},
+        {borderBottomWidth, borderBottomColor: theme.lightYellow},
       ]}>
       {/* Left content wrapper */}
       <View style={styles.leftContentWrapper}>
@@ -47,7 +47,7 @@ const ContactCard = ({
               styles.avatarImageBadgeWrapper,
               {
                 backgroundColor: badgeBackgroundColor,
-                borderColor: theme.primary,
+                borderColor: theme.black,
               },
             ]}>
             {/* Badge character */}
@@ -78,7 +78,7 @@ const ContactCard = ({
           style={[
             styles.actionIconWrapper,
             {
-              backgroundColor: theme.secondary,
+              backgroundColor: theme.lightYellow,
               marginEnd: STANDARD_SPACING * 2,
             },
           ]}
@@ -91,7 +91,7 @@ const ContactCard = ({
 
         {/* Message icon wrapper */}
         <TouchableOpacity
-          style={[styles.actionIconWrapper, {backgroundColor: theme.secondary}]}
+          style={[styles.actionIconWrapper, {backgroundColor: theme.lightYellow}]}
           onPress={() => alert('You have just clicked on Message icon.')}>
           <SvgChatDarkGreen
             width={STANDARD_VECTOR_ICON_SIZE}

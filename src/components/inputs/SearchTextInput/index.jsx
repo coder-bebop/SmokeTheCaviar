@@ -19,8 +19,8 @@ const SearchTextInput = () => {
       style={[
         styles.textInputWrapper,
         {
-          borderColor: theme.secondaryDark,
-          backgroundColor: theme.secondary,
+          borderColor: theme.darkYellow,
+          backgroundColor: theme.darkYellow,
           color: theme.textHighContrast,
         },
       ]}>

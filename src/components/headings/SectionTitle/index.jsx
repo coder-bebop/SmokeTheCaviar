@@ -13,7 +13,7 @@ const SectionTitle = ({title}) => {
 
   // Returning
   return (
-    <Text style={[styles.sectionTitle, {color: theme.accent}]}>{title}</Text>
+    <Text style={[styles.sectionTitle, {color: theme.white}]}>{title}</Text>
   );
 };
 

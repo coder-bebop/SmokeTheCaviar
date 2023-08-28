@@ -42,12 +42,12 @@ const CustomDrawerContent = props => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Header image background */}
       <ImageBackground
         source={require('../../../assets/images/backgrounds/drawer-background.png')}
         style={styles.drawerHeaderImageBackground}>
-        <View style={[styles.logoWrapper, {backgroundColor: theme.primary}]}>
+        <View style={[styles.logoWrapper, {backgroundColor: theme.black}]}>
           <Image
             source={require('../../../assets/images/logos/smokethecaviar_logo.jpg')}
             style={styles.logo}
@@ -95,18 +95,18 @@ const HomeDrawer = () => {
     <Drawer.Navigator
       screenOptions={({navigation}) => ({
         headerShown: false,
-        drawerActiveTintColor: theme.accent,
-        drawerInactiveTintColor: theme.textLowContrast,
-        drawerInactiveBackgroundColor: theme.primary,
+        drawerActiveTintColor: theme.lightYellow,
+        drawerInactiveTintColor: theme.darkYellow,
+        drawerInactiveBackgroundColor: theme.black,
         drawerStyle: styles.drawer,
         drawerItemStyle: styles.drawerItem,
         swipeEdgeWidth: 0,
         headerTitleAlign: 'center',
         headerTitleStyle: [styles.headerTitle],
-        headerTintColor: IndependentColors.white,
+        headerTintColor: theme.white,
         headerStyle: [
           {
-            backgroundColor: theme.accent,
+            backgroundColor: theme.white,
             elevation: 0,
             shadowOpacity: 0,
             borderBottomWidth: 0,

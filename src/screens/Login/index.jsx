@@ -40,12 +40,12 @@ const Login = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.accent}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.white}]}>
       {/* Form wrapper */}
       <Animatable.View
         animation="fadeInUp"
         delay={100}
-        style={[styles.formWrapper, {backgroundColor: theme.primary}]}>
+        style={[styles.formWrapper, {backgroundColor: theme.black}]}>
         {/* Screen title */}
         <Animatable.View animation="fadeInUp" delay={300}>
           <ScreenTitle title="Login" />
@@ -155,10 +155,10 @@ const Login = ({navigation}) => {
           isVisible={isModalVisible}
           animationIn="slideInDown"
           animationOut="slideOutDown"
-          backdropColor={theme.accent}
+          backdropColor={theme.white}
           backdropOpacity={0.9}
           style={styles.modal}>
-          <View style={[styles.modalBody, {backgroundColor: theme.primary}]}>
+          <View style={[styles.modalBody, {backgroundColor: theme.black}]}>
             {/* Text input */}
             <TextInput label="Email" placeholder="Enter your email" />
 
@@ -170,7 +170,7 @@ const Login = ({navigation}) => {
             <View
               style={[
                 styles.modalCloseIconWrapper,
-                {backgroundColor: theme.secondary},
+                {backgroundColor: theme.lightYellow},
               ]}>
               <TouchableOpacity activeOpacity={1} onPress={toggleModal}>
                 <CloseSvg

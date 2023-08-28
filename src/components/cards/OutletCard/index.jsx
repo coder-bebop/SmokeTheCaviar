@@ -45,7 +45,7 @@ const OutletCard = ({outletImage, outletName, rating, priceRange}) => {
       <View
         style={[
           styles.outletDetailsWrapper,
-          {backgroundColor: theme.secondary},
+          {backgroundColor: theme.darkYellow},
         ]}>
         {/* Outlet name */}
         <Text
@@ -60,14 +60,14 @@ const OutletCard = ({outletImage, outletName, rating, priceRange}) => {
             {/* Displaying rating stars */}
             {getRatingStars(rating)}
           </View>
-          <Text style={[styles.outletRating, {color: theme.accent}]}>
+          <Text style={[styles.outletRating, {color: theme.black}]}>
             {rating.toFixed(1)}
           </Text>
         </View>
 
         {/* Price range */}
         <View style={styles.outletPriceRangeWrapper}>
-          <Text style={[styles.outletPriceRangeLabel, {color: theme.accent}]}>
+          <Text style={[styles.outletPriceRangeLabel, {color: theme.black}]}>
             Price range:
           </Text>
           <Text

@@ -19,7 +19,7 @@ const GridViewProducts = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Flatgrid wrapper */}
       <Animatable.View
         animation="fadeInUp"

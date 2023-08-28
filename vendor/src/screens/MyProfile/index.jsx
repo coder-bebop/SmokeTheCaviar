@@ -18,12 +18,12 @@ const MyProfile = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.accent}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.white}]}>
       {/* Content wrapper */}
       <Animatable.View
         animation="fadeInUp"
         delay={100}
-        style={[styles.contentWrapper, {backgroundColor: theme.primary}]}>
+        style={[styles.contentWrapper, {backgroundColor: theme.black}]}>
         <ScrollView
           showsVerticalScrollIndicator={false}
           bounces={false}
@@ -54,7 +54,7 @@ const MyProfile = ({navigation}) => {
             <Animatable.Text
               animation="fadeInUp"
               delay={700}
-              style={[styles.profileEmail, {color: theme.accent}]}>
+              style={[styles.profileEmail, {color: theme.white}]}>
               jonathan@hotmail.com
             </Animatable.Text>
           </Animatable.View>

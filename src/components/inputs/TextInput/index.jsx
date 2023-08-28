@@ -15,7 +15,7 @@ const TextInput = ({label, placeholder}) => {
   return (
     <>
       {/* Text input label */}
-      <Text style={[styles.textInputLabel, {color: theme.textHighContrast}]}>
+      <Text style={[styles.textInputLabel, {color: theme.white}]}>
         {label}
       </Text>
       {/* Text input */}
@@ -25,8 +25,8 @@ const TextInput = ({label, placeholder}) => {
         style={[
           styles.textInput,
           {
-            borderColor: theme.secondaryDark,
-            backgroundColor: theme.secondary,
+            borderColor: theme.darkYellow,
+            backgroundColor: theme.darkYellow,
             color: theme.textHighContrast,
           },
         ]}

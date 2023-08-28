@@ -21,12 +21,12 @@ const ContactUs = () => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.accent}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.white}]}>
       {/* Form wrapper */}
       <Animatable.View
         animation="fadeInUp"
         delay={100}
-        style={[styles.formWrapper, {backgroundColor: theme.primary}]}>
+        style={[styles.formWrapper, {backgroundColor: theme.black}]}>
         {/* Scrollview */}
         <ScrollView
           showsVerticalScrollIndicator={false}
@@ -89,7 +89,7 @@ const ContactUs = () => {
               <TouchableOpacity
                 style={[
                   styles.helpIconWrapper,
-                  {backgroundColor: theme.secondary},
+                  {backgroundColor: theme.lightYellow},
                 ]}>
                 <Image
                   source={require('../../assets/icons/png/contact-us/headphone.png')}
@@ -102,7 +102,7 @@ const ContactUs = () => {
               <TouchableOpacity
                 style={[
                   styles.helpIconWrapper,
-                  {backgroundColor: theme.secondary},
+                  {backgroundColor: theme.lightYellow},
                 ]}>
                 <Image
                   source={require('../../assets/icons/png/contact-us/faqs.png')}
@@ -115,7 +115,7 @@ const ContactUs = () => {
               <TouchableOpacity
                 style={[
                   styles.helpIconWrapper,
-                  {backgroundColor: theme.secondary},
+                  {backgroundColor: theme.lightYellow},
                 ]}>
                 <Image
                   source={require('../../assets/icons/png/contact-us/location_pin.png')}

@@ -30,14 +30,14 @@ const ListViewProduct = ({
       style={[
         styles.productCard,
         {
-          backgroundColor: theme.secondary,
+          backgroundColor: theme.darkYellow,
           marginBottom: isLastItem ? 0 : STANDARD_SPACING * 3,
         },
       ]}
       onPress={onPress}>
       {/* Product image wrapper */}
       <View
-        style={[styles.productImageWrapper, {backgroundColor: theme.primary}]}>
+        style={[styles.productImageWrapper, {backgroundColor: theme.black}]}>
         <Image source={productImage} style={styles.productImage} />
       </View>
 
@@ -51,7 +51,7 @@ const ListViewProduct = ({
             {productTitle}
           </Text>
           <View style={styles.productPriceAndRatingWrapper}>
-            <Text style={[styles.productPrice, {color: theme.accent}]}>
+            <Text style={[styles.productPrice, {color: theme.white}]}>
               {productPrice}
             </Text>
             <View style={styles.starAndRatingWrapper}>
@@ -59,7 +59,7 @@ const ListViewProduct = ({
                 width={STANDARD_VECTOR_ICON_SIZE * 0.75}
                 height={STANDARD_VECTOR_ICON_SIZE * 0.75}
               />
-              <Text style={[styles.rating, {color: theme.accent}]}>
+              <Text style={[styles.rating, {color: theme.black}]}>
                 {rating}
               </Text>
             </View>
@@ -69,7 +69,7 @@ const ListViewProduct = ({
 
       {/* Bag icon wrapper */}
       <TouchableOpacity
-        style={[styles.bagIconWrapper, {backgroundColor: theme.accent}]}>
+        style={[styles.bagIconWrapper, {backgroundColor: theme.black}]}>
         <SvgBagWhite
           width={STANDARD_VECTOR_ICON_SIZE}
           height={STANDARD_VECTOR_ICON_SIZE}

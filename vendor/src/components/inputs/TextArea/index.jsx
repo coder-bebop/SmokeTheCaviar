@@ -27,8 +27,8 @@ const TextArea = ({label, placeholder}) => {
         style={[
           styles.textareaContainer,
           {
-            borderColor: theme.secondaryDark,
-            backgroundColor: theme.secondary,
+            borderColor: theme.darkYellow,
+            backgroundColor: theme.lightYellow,
             color: theme.textHighContrast,
           },
         ]}

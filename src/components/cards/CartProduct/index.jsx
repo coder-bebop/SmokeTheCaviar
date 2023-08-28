@@ -21,9 +21,9 @@ const Language = ({
 
   // Returning
   return (
-    <View style={[styles.productCard, {backgroundColor: theme.secondary}]}>
+    <View style={[styles.productCard, {backgroundColor: theme.darkYellow}]}>
       <View
-        style={[styles.productImageWrapper, {backgroundColor: theme.primary}]}>
+        style={[styles.productImageWrapper, {backgroundColor: theme.black}]}>
         <Image source={productImage} style={styles.productImage} />
       </View>
       {/* Product details wrapper */}
@@ -43,10 +43,10 @@ const Language = ({
 
       {/* Quantity wrapper */}
       <View
-        style={[styles.productQuantityWrapper, {borderColor: theme.primary}]}>
+        style={[styles.productQuantityWrapper, {borderColor: theme.black}]}>
         {/* Plus icon wrapper */}
         <TouchableOpacity
-          style={[styles.plusIconWrapper, {backgroundColor: theme.primary}]}>
+          style={[styles.plusIconWrapper, {backgroundColor: theme.black}]}>
           <SvgPlus
             width={STANDARD_VECTOR_ICON_SIZE * 0.9}
             height={STANDARD_VECTOR_ICON_SIZE * 0.9}
@@ -60,7 +60,7 @@ const Language = ({
 
         {/* Minus icon wrapper */}
         <TouchableOpacity
-          style={[styles.minusIconWrapper, {backgroundColor: theme.primary}]}>
+          style={[styles.minusIconWrapper, {backgroundColor: theme.black}]}>
           <SvgMinus
             width={STANDARD_VECTOR_ICON_SIZE * 0.9}
             height={STANDARD_VECTOR_ICON_SIZE * 0.9}

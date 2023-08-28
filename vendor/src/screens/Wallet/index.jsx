@@ -20,7 +20,7 @@ const Wallet = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Scroll view */}
       <ScrollView
         showsVerticalScrollIndicator={false}
@@ -30,7 +30,7 @@ const Wallet = ({navigation}) => {
         <Animatable.View
           animation="zoomInUp"
           delay={100}
-          style={[styles.cardWrapper, {backgroundColor: theme.accent}]}>
+          style={[styles.cardWrapper, {backgroundColor: theme.white}]}>
           {/* Card details */}
           <View style={styles.cardDetails}>
             <MasterCardSvg

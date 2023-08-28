@@ -16,9 +16,9 @@ const WishlistProduct = ({productImage, productTitle, productPrice}) => {
 
   // Returning
   return (
-    <View style={[styles.productCard, {backgroundColor: theme.secondary}]}>
+    <View style={[styles.productCard, {backgroundColor: theme.lightYellow}]}>
       <View
-        style={[styles.productImageWrapper, {backgroundColor: theme.primary}]}>
+        style={[styles.productImageWrapper, {backgroundColor: theme.black}]}>
         <Image source={productImage} style={styles.productImage} />
       </View>
       {/* Product details wrapper */}
@@ -31,7 +31,7 @@ const WishlistProduct = ({productImage, productTitle, productPrice}) => {
             {productTitle}
           </Text>
           <View style={styles.productPriceAndRatingWrapper}>
-            <Text style={[styles.productPrice, {color: theme.accent}]}>
+            <Text style={[styles.productPrice, {color: theme.white}]}>
               {productPrice}
             </Text>
             <View style={styles.starAndRatingWrapper}>
@@ -39,7 +39,7 @@ const WishlistProduct = ({productImage, productTitle, productPrice}) => {
                 width={STANDARD_VECTOR_ICON_SIZE * 0.75}
                 height={STANDARD_VECTOR_ICON_SIZE * 0.75}
               />
-              <Text style={[styles.rating, {color: theme.accent}]}>3.8</Text>
+              <Text style={[styles.rating, {color: theme.white}]}>3.8</Text>
             </View>
           </View>
         </View>
@@ -47,7 +47,7 @@ const WishlistProduct = ({productImage, productTitle, productPrice}) => {
 
       {/* Trash icon wrapper */}
       <TouchableOpacity
-        style={[styles.trashIconWrapper, {backgroundColor: theme.accent}]}>
+        style={[styles.trashIconWrapper, {backgroundColor: theme.white}]}>
         <SvgTrashWhite
           width={STANDARD_VECTOR_ICON_SIZE}
           height={STANDARD_VECTOR_ICON_SIZE}

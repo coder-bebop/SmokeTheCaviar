@@ -46,12 +46,12 @@ const CustomDrawerContent = props => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Header image background */}
       <ImageBackground
         source={require('../../../assets/images/backgrounds/liquid-cheese-background.png')}
         style={styles.drawerHeaderImageBackground}>
-        <View style={[styles.logoWrapper, {backgroundColor: theme.primary}]}>
+        <View style={[styles.logoWrapper, {backgroundColor: theme.black}]}>
           <Image
             source={
               isLightTheme
@@ -101,9 +101,9 @@ const HomeDrawer = () => {
     <Drawer.Navigator
       screenOptions={({navigation}) => ({
         headerShown: false,
-        drawerActiveTintColor: theme.accent,
+        drawerActiveTintColor: theme.white,
         drawerInactiveTintColor: theme.textLowContrast,
-        drawerInactiveBackgroundColor: theme.primary,
+        drawerInactiveBackgroundColor: theme.black,
         drawerStyle: styles.drawer,
         drawerItemStyle: styles.drawerItem,
         swipeEdgeWidth: 0,
@@ -112,7 +112,7 @@ const HomeDrawer = () => {
         headerTintColor: IndependentColors.white,
         headerStyle: [
           {
-            backgroundColor: theme.accent,
+            backgroundColor: theme.white,
             elevation: 0,
             shadowOpacity: 0,
             borderBottomWidth: 0,

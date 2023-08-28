@@ -71,7 +71,7 @@ const Order = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Scroll View */}
       <ScrollView
         bounces={false}
@@ -85,7 +85,7 @@ const Order = ({navigation}) => {
           <View
             style={[
               styles.productImageWrapper,
-              {backgroundColor: theme.secondary},
+              {backgroundColor: theme.lightYellow},
             ]}>
             {/* Product image */}
             <Image
@@ -98,7 +98,7 @@ const Order = ({navigation}) => {
               activeOpacity={1}
               style={[
                 styles.moreProductsCountWrapper,
-                {backgroundColor: theme.primary},
+                {backgroundColor: theme.black},
               ]}>
               <Text
                 style={[
@@ -134,7 +134,7 @@ const Order = ({navigation}) => {
                     width={STANDARD_VECTOR_ICON_SIZE * 0.75}
                     height={STANDARD_VECTOR_ICON_SIZE * 0.75}
                   />
-                  <Text style={[styles.rating, {color: theme.accent}]}>
+                  <Text style={[styles.rating, {color: theme.white}]}>
                     5.0
                   </Text>
                 </View>
@@ -178,7 +178,7 @@ const Order = ({navigation}) => {
               <View
                 style={[
                   styles.linkIconWrapper,
-                  {backgroundColor: theme.secondary},
+                  {backgroundColor: theme.lightYellow},
                 ]}>
                 <LocationDarkGreen
                   width={STANDARD_VECTOR_ICON_SIZE}
@@ -230,7 +230,7 @@ const Order = ({navigation}) => {
               <View
                 style={[
                   styles.linkIconWrapper,
-                  {backgroundColor: theme.secondary},
+                  {backgroundColor: theme.lightYellow},
                 ]}>
                 <Mastercard
                   width={STANDARD_VECTOR_ICON_SIZE}
@@ -283,7 +283,7 @@ const Order = ({navigation}) => {
               <View
                 style={[
                   styles.linkIconWrapper,
-                  {backgroundColor: theme.secondary},
+                  {backgroundColor: theme.lightYellow},
                 ]}>
                 <PaperDarkGreen
                   width={STANDARD_VECTOR_ICON_SIZE}
@@ -390,14 +390,14 @@ const Order = ({navigation}) => {
             <View
               style={[
                 styles.orderStatusStepsVerticalLine,
-                {backgroundColor: theme.secondary},
+                {backgroundColor: theme.lightYellow},
               ]}>
               <View
                 style={[
                   styles.orderStatusStepsVerticalLineProgressBar,
                   {
                     height: statusStepsProgressPercentage,
-                    backgroundColor: theme.accent,
+                    backgroundColor: theme.white,
                   },
                 ]}
               />
@@ -410,8 +410,8 @@ const Order = ({navigation}) => {
                       styles.orderStatusStepNumberWrapper,
                       {
                         backgroundColor: item.isDone
-                          ? theme.accent
-                          : theme.secondary,
+                          ? theme.white
+                          : theme.lightYellow,
                       },
                     ]}>
                     {!item.isDone ? (
@@ -449,7 +449,7 @@ const Order = ({navigation}) => {
                       {item.stepLabel}
                     </Text>
                     {item.date && item.time !== null ? (
-                      <Text style={[styles.dateTime, {color: theme.accent}]}>
+                      <Text style={[styles.dateTime, {color: theme.white}]}>
                         {item.date}, {item.time}
                       </Text>
                     ) : null}

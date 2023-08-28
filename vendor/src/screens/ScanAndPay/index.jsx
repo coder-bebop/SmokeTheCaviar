@@ -20,7 +20,7 @@ const ScanAndPay = () => {
     <Animatable.View
       animation="fadeInUp"
       delay={100}
-      style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+      style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Screen header component */}
       <Animatable.View animation="fadeInUp" delay={300}>
         <ScreenHeader />

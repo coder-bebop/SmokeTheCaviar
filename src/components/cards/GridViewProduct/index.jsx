@@ -23,11 +23,11 @@ const GridViewProduct = ({
   // Returning
   return (
     <TouchableOpacity
-      style={[styles.productCard, {backgroundColor: theme.secondary}]}
+      style={[styles.productCard, {backgroundColor: theme.darkYellow}]}
       onPress={onPress}>
       {/* Rotated background */}
       <View
-        style={[styles.rotatedBackground, {borderColor: theme.secondary}]}
+        style={[styles.rotatedBackground, {borderColor: theme.darkYellow}]}
       />
       {/* Product image */}
       <Image source={productImage} style={styles.productImage} />
@@ -42,7 +42,7 @@ const GridViewProduct = ({
 
       {/* Price & rating wrapper */}
       <View style={styles.productPriceAndRatingWrapper}>
-        <Text style={[styles.productPrice, {color: theme.accent}]}>
+        <Text style={[styles.productPrice, {color: theme.white}]}>
           {productPrice}
         </Text>
         <View style={styles.starAndRatingWrapper}>
@@ -50,13 +50,13 @@ const GridViewProduct = ({
             width={STANDARD_VECTOR_ICON_SIZE * 0.75}
             height={STANDARD_VECTOR_ICON_SIZE * 0.75}
           />
-          <Text style={[styles.rating, {color: theme.accent}]}>{rating}</Text>
+          <Text style={[styles.rating, {color: theme.white}]}>{rating}</Text>
         </View>
       </View>
 
       {/* Bag icon wrapper */}
       <TouchableOpacity
-        style={[styles.bagIconWrapper, {backgroundColor: theme.accent}]}>
+        style={[styles.bagIconWrapper, {backgroundColor: theme.white}]}>
         <SvgBagWhite
           width={STANDARD_VECTOR_ICON_SIZE}
           height={STANDARD_VECTOR_ICON_SIZE}

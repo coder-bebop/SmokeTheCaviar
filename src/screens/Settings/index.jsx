@@ -35,15 +35,15 @@ const Settings = ({navigation}) => {
 
   /*
   // Constants
-  const Track_Active_Color = theme.accent;
+  const Track_Active_Color = theme.white;
   const Track_Inactive_Color = theme.accentLightest;
   const Thumb_Active_Color = IndependentColors.white;
-  const Thumb_Inactive_Color = theme.secondary;
+  const Thumb_Inactive_Color = theme.lightYellow;
   */
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       <ScrollView
         bounces={false}
         showsVerticalScrollIndicator={false}

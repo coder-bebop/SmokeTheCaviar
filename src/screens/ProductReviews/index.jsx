@@ -34,7 +34,7 @@ const ProductReviews = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       <ScrollView
         bounces={false}
         showsVerticalScrollIndicator={false}
@@ -59,8 +59,8 @@ const ProductReviews = ({navigation}) => {
               style={[
                 styles.productImageCircledBackground,
                 {
-                  backgroundColor: theme.secondary,
-                  borderColor: theme.secondaryDark,
+                  backgroundColor: theme.lightYellow,
+                  borderColor: theme.darkYellow,
                 },
               ]}
             />
@@ -86,8 +86,8 @@ const ProductReviews = ({navigation}) => {
           <Animatable.View
             animation="fadeInUp"
             delay={1300}
-            style={[styles.ratingCountWrapper, {borderColor: theme.secondary}]}>
-            <Text style={[styles.ratingCount, {color: theme.accent}]}>
+            style={[styles.ratingCountWrapper, {borderColor: theme.lightYellow}]}>
+            <Text style={[styles.ratingCount, {color: theme.white}]}>
               4000+ Ratings
             </Text>
           </Animatable.View>
@@ -131,8 +131,8 @@ const ProductReviews = ({navigation}) => {
             style={[
               styles.giveRatingAndReviewLink,
               {
-                borderTopColor: theme.secondary,
-                borderBottomColor: theme.secondary,
+                borderTopColor: theme.lightYellow,
+                borderBottomColor: theme.lightYellow,
               },
             ]}
             onPress={toggleModal}>
@@ -151,7 +151,7 @@ const ProductReviews = ({navigation}) => {
         <Animatable.Text
           animation="fadeInUp"
           delay={1900}
-          style={[styles.buyersReviewsTitle, {color: theme.accent}]}>
+          style={[styles.buyersReviewsTitle, {color: theme.white}]}>
           Buyers reviews
         </Animatable.Text>
 
@@ -176,10 +176,10 @@ const ProductReviews = ({navigation}) => {
           isVisible={isModalVisible}
           animationIn="slideInDown"
           animationOut="slideOutDown"
-          backdropColor={theme.accent}
+          backdropColor={theme.white}
           backdropOpacity={0.9}
           style={styles.modal}>
-          <View style={[styles.modalBody, {backgroundColor: theme.primary}]}>
+          <View style={[styles.modalBody, {backgroundColor: theme.black}]}>
             {/* Text area */}
             <View style={styles.textAreaComponentWrapper}>
               <TextArea label="Honest Review" placeholder="Enter your review" />
@@ -190,7 +190,7 @@ const ProductReviews = ({navigation}) => {
               rating={rating}
               maxStars={5}
               starSize={scale(30)}
-              color={theme.accent}
+              color={theme.white}
               onChange={rating => setRating(rating)}
             />
 
@@ -202,7 +202,7 @@ const ProductReviews = ({navigation}) => {
             <View
               style={[
                 styles.modalCloseIconWrapper,
-                {backgroundColor: theme.secondary},
+                {backgroundColor: theme.lightYellow},
               ]}>
               <TouchableOpacity activeOpacity={1} onPress={toggleModal}>
                 <CloseSvg

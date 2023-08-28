@@ -16,7 +16,7 @@ const Policy = () => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       <Animatable.View animation="fadeInUp" delay={100}>
         {/* Scroll view */}
         <ScrollView
@@ -24,7 +24,7 @@ const Policy = () => {
           showsVerticalScrollIndicator={false}
           contentContainerStyle={styles.scrollViewContentContainerStyle}>
           {/* Last updated date */}
-          <Text style={[styles.lastUpdateDate, {color: theme.accent}]}>
+          <Text style={[styles.lastUpdateDate, {color: theme.white}]}>
             Last updated on May 15, 2023
           </Text>
 
@@ -47,7 +47,7 @@ const Policy = () => {
             (collectively FoodBazaar, we, our, us”) collect, use, share or
             otherwise process your personal information through Nunova Furniture
             website
-            <Text style={{color: theme.accent}}> www.plantmart.com </Text>, its
+            <Text style={{color: theme.white}}> www.plantmart.com </Text>, its
             mobile application, and m-site (hereinafter referred to as the
             “Platform”).{'\n'}
             {'\n'}While you may be able to browse certain sections of the

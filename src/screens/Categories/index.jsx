@@ -16,7 +16,7 @@ const Categories = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Flatlist */}
       <Animatable.View
         animation="fadeInUp"

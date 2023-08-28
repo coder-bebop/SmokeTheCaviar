@@ -19,7 +19,7 @@ const Invoice = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Scroll View */}
       <ScrollView
         bounces={false}
@@ -29,7 +29,7 @@ const Invoice = ({navigation}) => {
         <Animatable.Text
           animation="fadeInUp"
           delay={100}
-          style={[styles.to, {color: theme.accent}]}>
+          style={[styles.to, {color: theme.white}]}>
           To, Jonathan Doe {'\n'}7th floor, Shivam Complex, Delhi
         </Animatable.Text>
 
@@ -47,7 +47,7 @@ const Invoice = ({navigation}) => {
               ]}>
               Issued on
             </Text>
-            <Text style={[styles.issuedAndDueDate, {color: theme.accent}]}>
+            <Text style={[styles.issuedAndDueDate, {color: theme.white}]}>
               Apr 10, 2023
             </Text>
           </Animatable.View>
@@ -86,7 +86,7 @@ const Invoice = ({navigation}) => {
               ]}>
               Due on
             </Text>
-            <Text style={[styles.issuedAndDueDate, {color: theme.accent}]}>
+            <Text style={[styles.issuedAndDueDate, {color: theme.white}]}>
               May 17, 2023
             </Text>
           </Animatable.View>
@@ -112,7 +112,7 @@ const Invoice = ({navigation}) => {
               <View
                 style={[
                   styles.orderedProductImageWrapper,
-                  {backgroundColor: theme.secondary},
+                  {backgroundColor: theme.lightYellow},
                 ]}>
                 <Image
                   style={styles.productImage}
@@ -159,7 +159,7 @@ const Invoice = ({navigation}) => {
               <View
                 style={[
                   styles.orderedProductImageWrapper,
-                  {backgroundColor: theme.secondary},
+                  {backgroundColor: theme.lightYellow},
                 ]}>
                 <Image
                   style={styles.productImage}

@@ -22,7 +22,7 @@ const Policies = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Scrollview */}
       <ScrollView
         bounces={false}
@@ -35,13 +35,13 @@ const Policies = ({navigation}) => {
           useNativeDriver={true}
           style={[
             styles.navigationLinksWrapper,
-            {backgroundColor: theme.secondary},
+            {backgroundColor: theme.lightYellow},
           ]}>
           {/* Mapping data */}
           {PoliciesData.map((policy, index) => {
             // Border bottom color
             borderBottomColor =
-              index === PoliciesData.length - 1 ? 'transparent' : theme.primary;
+              index === PoliciesData.length - 1 ? 'transparent' : theme.black;
 
             // Returning
             return (

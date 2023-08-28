@@ -67,9 +67,9 @@ const Product = ({navigation}) => {
         styles.thumbnailImageWrapper,
         {
           backgroundColor:
-            activeScrollIndex === index ? theme.accentLightest : theme.primary,
+            activeScrollIndex === index ? theme.accentLightest : theme.black,
           borderColor:
-            activeScrollIndex === index ? theme.accent : theme.accentLightest,
+            activeScrollIndex === index ? theme.white : theme.accentLightest,
         },
       ]}>
       <Image source={item.productImage} style={styles.thumbnailImage} />
@@ -78,13 +78,13 @@ const Product = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       <View style={styles.flatListsWrapper}>
         {/* Vertical FlatList */}
         <View
           style={[
             styles.verticalFlatListWrapper,
-            {backgroundColor: theme.secondary},
+            {backgroundColor: theme.lightYellow},
           ]}>
           <FlatList
             ref={verticalFlatList}
@@ -132,7 +132,7 @@ const Product = ({navigation}) => {
           bounces={false}
           style={[
             styles.productDetailsScrollView,
-            {backgroundColor: theme.primary},
+            {backgroundColor: theme.black},
           ]}>
           <View style={styles.productTitleAndHeartIconWrapper}>
             <View style={styles.productTitleWrapper}>
@@ -145,7 +145,7 @@ const Product = ({navigation}) => {
             <TouchableOpacity
               style={[
                 styles.heartIconWrapper,
-                {backgroundColor: theme.secondary},
+                {backgroundColor: theme.lightYellow},
               ]}>
               <HeartDarkGreenSvg
                 width={STANDARD_VECTOR_ICON_SIZE}
@@ -162,7 +162,7 @@ const Product = ({navigation}) => {
               width={STANDARD_VECTOR_ICON_SIZE * 0.9}
               height={STANDARD_VECTOR_ICON_SIZE * 0.9}
             />
-            <Text style={[styles.rating, {color: theme.accent}]}>4.8</Text>
+            <Text style={[styles.rating, {color: theme.white}]}>4.8</Text>
             <Text style={[styles.outOf, {color: theme.textLowContrast}]}>
               out of
             </Text>
@@ -182,20 +182,20 @@ const Product = ({navigation}) => {
               Price
             </Text>
             <View style={styles.productPriceAndQuantityWrapper}>
-              <Text style={[styles.productPrice, {color: theme.accent}]}>
+              <Text style={[styles.productPrice, {color: theme.white}]}>
                 $10.07
               </Text>
               {/* Quantity wrapper */}
               <View
                 style={[
                   styles.productQuantityWrapper,
-                  {borderColor: theme.accent},
+                  {borderColor: theme.white},
                 ]}>
                 {/* Plus icon wrapper */}
                 <TouchableOpacity
                   style={[
                     styles.plusIconWrapper,
-                    {backgroundColor: theme.secondary},
+                    {backgroundColor: theme.lightYellow},
                   ]}>
                   <SvgPlus
                     width={STANDARD_VECTOR_ICON_SIZE * 0.9}
@@ -216,7 +216,7 @@ const Product = ({navigation}) => {
                 <TouchableOpacity
                   style={[
                     styles.minusIconWrapper,
-                    {backgroundColor: theme.secondary},
+                    {backgroundColor: theme.lightYellow},
                   ]}>
                   <SvgMinus
                     width={STANDARD_VECTOR_ICON_SIZE * 0.9}
@@ -239,7 +239,7 @@ const Product = ({navigation}) => {
               bounces={false}
               showsHorizontalScrollIndicator={false}>
               <View style={styles.plantCareWrapper}>
-                <Text style={[styles.plantCareTitle, {color: theme.accent}]}>
+                <Text style={[styles.plantCareTitle, {color: theme.white}]}>
                   Temperature
                 </Text>
                 <Text
@@ -252,7 +252,7 @@ const Product = ({navigation}) => {
               </View>
 
               <View style={styles.plantCareWrapper}>
-                <Text style={[styles.plantCareTitle, {color: theme.accent}]}>
+                <Text style={[styles.plantCareTitle, {color: theme.white}]}>
                   Water
                 </Text>
                 <Text
@@ -265,7 +265,7 @@ const Product = ({navigation}) => {
               </View>
 
               <View style={styles.plantCareWrapper}>
-                <Text style={[styles.plantCareTitle, {color: theme.accent}]}>
+                <Text style={[styles.plantCareTitle, {color: theme.white}]}>
                   Humidity
                 </Text>
                 <Text
@@ -278,7 +278,7 @@ const Product = ({navigation}) => {
               </View>
 
               <View style={styles.plantCareWrapper}>
-                <Text style={[styles.plantCareTitle, {color: theme.accent}]}>
+                <Text style={[styles.plantCareTitle, {color: theme.white}]}>
                   Sunlight
                 </Text>
                 <Text

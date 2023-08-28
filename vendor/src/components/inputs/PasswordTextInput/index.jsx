@@ -29,8 +29,8 @@ const PasswordTextInput = ({label, placeholder}) => {
           style={[
             styles.textInput,
             {
-              borderColor: theme.secondaryDark,
-              backgroundColor: theme.secondary,
+              borderColor: theme.darkYellow,
+              backgroundColor: theme.lightYellow,
               color: theme.textHighContrast,
             },
           ]}

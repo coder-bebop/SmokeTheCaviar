@@ -37,7 +37,7 @@ const AccordionItem = ({children, question, expanded, onHeaderPress}) => {
   return (
     <View style={styles.accordionWrapper}>
       <TouchableOpacity
-        style={[styles.accordionHeader, {backgroundColor: theme.secondary}]}
+        style={[styles.accordionHeader, {backgroundColor: theme.lightYellow}]}
         onPress={onHeaderPress}>
         {/* Question */}
         <Text style={[styles.question, {color: theme.textHighContrast}]}>
@@ -109,7 +109,7 @@ const Faqs = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Scrollview */}
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"

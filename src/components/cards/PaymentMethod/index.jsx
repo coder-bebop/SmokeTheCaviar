@@ -20,8 +20,8 @@ const PaymentMethod = ({iconSvg, label, isChecked}) => {
       style={[
         styles.paymentMethodCard,
         {
-          backgroundColor: isChecked ? theme.accentLightest : theme.secondary,
-          borderColor: isChecked ? theme.accent : theme.secondaryDark,
+          backgroundColor: isChecked ? theme.accentLightest : theme.lightYellow,
+          borderColor: isChecked ? theme.white : theme.darkYellow,
         },
       ]}>
       {/* Icon & label wrapper */}
@@ -40,8 +40,8 @@ const PaymentMethod = ({iconSvg, label, isChecked}) => {
       <View
         style={[
           styles.checkedIconWrapper,
-          {backgroundColor: isChecked ? theme.accent : theme.primary},
-          {borderColor: isChecked ? theme.accent : theme.secondaryDark},
+          {backgroundColor: isChecked ? theme.white : theme.black},
+          {borderColor: isChecked ? theme.white : theme.darkYellow},
         ]}>
         {isLightTheme ? (
           <SvgCheckmarkWhite

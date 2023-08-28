@@ -23,7 +23,7 @@ const OnBoarding = () => {
   return (
     <ImageBackground
       source={require('../../assets/images/backgrounds/on_boarding_pattern.png')}
-      style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+      style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Flastlist */}
       <FlatList
         data={OnBoardingData}
@@ -47,10 +47,10 @@ const OnBoarding = () => {
           styles.skipButton,
           {
             backgroundColor: theme.accentLightest,
-            borderColor: theme.accent,
+            borderColor: theme.white,
           },
         ]}>
-        <Text style={[styles.skipLabel, {color: theme.accent}]}>Skip</Text>
+        <Text style={[styles.skipLabel, {color: theme.white}]}>Skip</Text>
       </TouchableOpacity>
 
       {/* Pagination indicators */}
@@ -60,7 +60,7 @@ const OnBoarding = () => {
             key={index}
             style={[
               styles.paginationIndicator,
-              {backgroundColor: theme.accent},
+              {backgroundColor: theme.white},
             ]}
           />
         ))}

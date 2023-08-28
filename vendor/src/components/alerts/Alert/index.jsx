@@ -14,7 +14,7 @@ const Alert = ({lottieFile, problemTitle, problemInfo}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       <Lottie source={lottieFile} autoPlay loop style={styles.lottieFile} />
       <Text style={[styles.problemTitle, {color: theme.textHighContrast}]}>
         {problemTitle}

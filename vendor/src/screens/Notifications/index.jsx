@@ -17,7 +17,7 @@ const Notifications = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Scroll View */}
       <ScrollView
         bounces={false}

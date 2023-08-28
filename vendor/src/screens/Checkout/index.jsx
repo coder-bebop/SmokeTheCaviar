@@ -26,7 +26,7 @@ const Checkout = ({navigation}) => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.primary}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.black}]}>
       {/* Scrollview */}
       <ScrollView
         bounces={false}
@@ -70,8 +70,8 @@ const Checkout = ({navigation}) => {
           style={[
             styles.textInputWrapper,
             {
-              borderColor: theme.secondaryDark,
-              backgroundColor: theme.secondary,
+              borderColor: theme.darkYellow,
+              backgroundColor: theme.lightYellow,
             },
           ]}>
           {/* Text input */}
@@ -79,7 +79,7 @@ const Checkout = ({navigation}) => {
 
           {/* Button */}
           <TouchableOpacity
-            style={[styles.applyCouponButton, {backgroundColor: theme.accent}]}>
+            style={[styles.applyCouponButton, {backgroundColor: theme.white}]}>
             <Text
               style={[
                 styles.applyCouponButtonLabel,

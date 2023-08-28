@@ -23,12 +23,12 @@ const OtpVerification = () => {
 
   // Returning
   return (
-    <View style={[styles.mainWrapper, {backgroundColor: theme.accent}]}>
+    <View style={[styles.mainWrapper, {backgroundColor: theme.white}]}>
       {/* Form wrapper */}
       <Animatable.View
         animation="fadeInUp"
         delay={100}
-        style={[styles.formWrapper, {backgroundColor: theme.primary}]}>
+        style={[styles.formWrapper, {backgroundColor: theme.black}]}>
         {/* Screen title */}
         <Animatable.View animation="fadeInUp" delay={300}>
           <ScreenTitle title="OTP Verification" />
@@ -47,7 +47,7 @@ const OtpVerification = () => {
         <Animatable.View animation="fadeInUp" delay={700}>
           <OTPTextView
             textInputStyle={styles.otpTextView}
-            tintColor={theme.accent}
+            tintColor={theme.white}
             inputCount={4}
             handleTextChange={text => setOtpText(text)}
           />
