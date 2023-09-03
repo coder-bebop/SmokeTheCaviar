@@ -5,7 +5,7 @@ import Settings from '../../../screens/Settings';
 import Languages from '../../../screens/Languages';
 import styles from '../styles';
 import {IndependentColors} from '../../../config/Colors';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import EditProfile from '../../../screens/EditProfile';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
 import ArrowLeftWhiteSvg from '../../../assets/icons/svg/ic_arrow_left_white.svg';

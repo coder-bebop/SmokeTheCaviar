@@ -6,7 +6,7 @@ import CartStack from '../../stacks/CartStack';
 import MyProfileStack from '../../stacks/MyProfileStack';
 import SettingsStack from '../../stacks/SettingsStack';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import HomeLightGreenSvg from '../../../assets/icons/svg/ic_home_light_green.svg';
 import HomeDarkGreenSvg from '../../../assets/icons/svg/ic_home_dark_green.svg';
 import BagLightGreenSvg from '../../../assets/icons/svg/ic_bag_light_green.svg';

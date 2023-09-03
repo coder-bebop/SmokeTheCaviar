@@ -12,7 +12,7 @@ import * as Animatable from 'react-native-animatable';
 import ArrowUpDarkestGreen from '../../assets/icons/svg/ic_arrow_up_darkest_green.svg';
 import ArrowDownDarkestGreen from '../../assets/icons/svg/ic_arrow_down_darkest_green.svg';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../config/Constants';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import FaqsData from '../../data/FaqsData';
 
 import styles from './styles';

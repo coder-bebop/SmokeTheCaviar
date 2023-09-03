@@ -5,7 +5,7 @@ import {IndependentColors} from '../../../config/Colors';
 import Cart from '../../../screens/Cart';
 import Checkout from '../../../screens/Checkout';
 import ArrowLeftWhiteSvg from '../../../assets/icons/svg/ic_arrow_left_white.svg';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import styles from '../styles';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
 import PaymentStatus from '../../../screens/PaymentStatus';

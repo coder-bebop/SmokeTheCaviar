@@ -1,10 +1,12 @@
 // Importing
-import React, {useState} from 'react';
-import {LightThemeColors, DarkThemeColors} from '../../config/Colors';
-import {ThemeContext} from '../contexts/ThemeContext';
+import React, {useState, createContext} from 'react';
+import {LightThemeColors, DarkThemeColors} from '../config/Colors';
+
+// Creating context
+const ThemeContext = createContext();
 
 // Exporting context provider to provide it's values & methods globally
-export const ThemeContextProvider = ({children}) => {
+const ThemeContextProvider = ({children}) => {
   // Local state
   const [theme, setTheme] = useState({
     lightTheme: {
@@ -44,3 +46,5 @@ export const ThemeContextProvider = ({children}) => {
     </ThemeContext.Provider>
   );
 };
+
+export { ThemeContext, ThemeContextProvider };

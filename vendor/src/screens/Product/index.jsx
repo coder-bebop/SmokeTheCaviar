@@ -8,7 +8,7 @@ import {
   ScrollView,
 } from 'react-native';
 import React from 'react';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import {SCREEN_WIDTH, STANDARD_VECTOR_ICON_SIZE} from '../../config/Constants';
 import GridViewProductsData from '../../data/GridViewProductsData';
 import HeartDarkGreenSvg from '../../assets/icons/svg/ic_heart_dark_green.svg';

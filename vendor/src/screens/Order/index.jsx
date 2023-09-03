@@ -7,7 +7,7 @@ import Mastercard from '../../assets/icons/svg/ic_mastercard.svg';
 import ArrowRightDarkGreen from '../../assets/icons/svg/ic_arrow_right_dark_green.svg';
 import PaperDarkGreen from '../../assets/icons/svg/ic_paper_dark_green.svg';
 import CheckmarkWhite from '../../assets/icons/svg/ic_checkmark_white.svg';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 
 import {
   POPPINS_REGULAR,

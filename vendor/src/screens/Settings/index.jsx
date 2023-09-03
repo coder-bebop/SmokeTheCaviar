@@ -6,7 +6,7 @@ import LockDarkGreen from '../../assets/icons/svg/ic_lock_dark_green.svg';
 import EditDarkGreen from '../../assets/icons/svg/ic_edit_dark_green.svg';
 import SoundDarkGreen from '../../assets/icons/svg/ic_sound_dark_green.svg';
 import MikeDarkGreen from '../../assets/icons/svg/ic_mike_dark_green.svg';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import SectionTitle from '../../components/headings/SectionTitle';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../config/Constants';
 import NavigationLink from '../../components/links/NavigationLink';

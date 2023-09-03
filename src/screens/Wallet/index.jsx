@@ -1,7 +1,7 @@
 import {useContext} from 'react';
 import {View, Text, TouchableOpacity, Image, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import MasterCardSvg from '../../assets/icons/svg/ic_pay_method_master_card.svg';
 import {STANDARD_VECTOR_ICON_WRAPPER_SIZE} from '../../config/Constants';
 import SectionTitle from '../../components/headings/SectionTitle';

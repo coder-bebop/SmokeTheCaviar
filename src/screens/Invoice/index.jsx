@@ -2,7 +2,7 @@ import {useContext} from 'react';
 import {View, ScrollView, Text, Image, TouchableOpacity} from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import ArrowRightDarkGreen from '../../assets/icons/svg/ic_arrow_right_dark_green.svg';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import SectionTitle from '../../components/headings/SectionTitle';
 import HorizontalDivider from '../../components/dividers/HorizontalDivider';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../config/Constants';

@@ -4,7 +4,7 @@ import * as Animatable from 'react-native-animatable';
 import Button from '../../components/buttons/Button';
 import Link from '../../components/links/Link';
 import ScreenInfo from '../../components/paragraphs/ScreenInfo';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import styles from './styles';
 import PasswordTextInput from '../../components/inputs/PasswordTextInput';
 import ScreenTitle from '../../components/headings/ScreenTitle';

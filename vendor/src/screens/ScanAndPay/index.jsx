@@ -2,7 +2,7 @@ import {useContext} from 'react';
 import {View, Text} from 'react-native';
 import Lottie from 'lottie-react-native';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import styles from './styles';
 import Button from '../../components/buttons/Button';
 import ScreenTitle from '../../components/headings/ScreenTitle';

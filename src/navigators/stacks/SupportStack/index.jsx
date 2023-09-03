@@ -4,7 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {IndependentColors} from '../../../config/Colors';
 import ArrowLeftWhiteSvg from '../../../assets/icons/svg/ic_arrow_left_white.svg';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import Support from '../../../screens/Support';
 import Chats from '../../../screens/Chats';
 import ContactUs from '../../../screens/ContactUs';

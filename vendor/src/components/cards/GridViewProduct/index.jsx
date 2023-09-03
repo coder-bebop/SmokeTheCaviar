@@ -2,7 +2,7 @@ import {memo, useContext} from 'react';
 import {View, Text, TouchableOpacity, Image} from 'react-native';
 import SvgStar from '../../../assets/icons/svg/ic_star.svg';
 import SvgBagWhite from '../../../assets/icons/svg/ic_bag_white.svg';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
 import styles from './styles';
 

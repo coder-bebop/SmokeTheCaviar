@@ -13,7 +13,7 @@ import Addresses from '../../../screens/Addresses';
 import Messages from '../../../screens/Messages';
 import {IndependentColors} from '../../../config/Colors';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import ArrowLeftWhiteSvg from '../../../assets/icons/svg/ic_arrow_left_white.svg';
 import styles from '../styles';
 

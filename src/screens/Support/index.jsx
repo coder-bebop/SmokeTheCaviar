@@ -1,7 +1,7 @@
 import {useContext, useCallback} from 'react';
 import {View, Text, ScrollView, TouchableOpacity} from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import SmileSvg from '../../assets/icons/svg/ic_smile_dark_green.svg';
 import ChatSvg from '../../assets/icons/svg/ic_chat_dark_green.svg';
 import MailSvg from '../../assets/icons/svg/ic_mail_dark_green.svg';

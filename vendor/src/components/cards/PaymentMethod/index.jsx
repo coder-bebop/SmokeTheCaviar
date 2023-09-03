@@ -1,7 +1,7 @@
 import {memo, useContext} from 'react';
 import {View, Text, TouchableOpacity, Image} from 'react-native';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import SvgCheckmarkWhite from '../../../assets/icons/svg/ic_checkmark_white.svg';
 import SvgCheckmarkBlack from '../../../assets/icons/svg/ic_checkmark_black.svg';
 import styles from './styles';

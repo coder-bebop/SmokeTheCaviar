@@ -7,7 +7,7 @@ import TextInput from '../../components/inputs/TextInput';
 import Link from '../../components/links/Link';
 import ScreenInfo from '../../components/paragraphs/ScreenInfo';
 import OrDivider from '../../components/dividers/OrDivider';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import FacebookSvg from '../../assets/icons/svg/ic_facebook.svg';
 import TwitterSvg from '../../assets/icons/svg/ic_twitter.svg';
 import GoogleSvg from '../../assets/icons/svg/ic_google.svg';

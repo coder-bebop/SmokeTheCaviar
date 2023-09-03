@@ -3,7 +3,7 @@ import {View, Text, TouchableOpacity, Image} from 'react-native';
 import SvgPlus from '../../../assets/icons/svg/ic_plus_dark_gold.svg';
 import SvgMinus from '../../../assets/icons/svg/ic_minus_dark_gold.svg';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import styles from './styles';
 
 // Functional component

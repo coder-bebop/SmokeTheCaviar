@@ -5,7 +5,7 @@ import {
   STANDARD_VECTOR_ICON_SIZE,
 } from '../../../config/Constants';
 import StarSvg from '../../../assets/icons/svg/ic_star.svg';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import styles from './styles';
 
 // Functional component

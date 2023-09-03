@@ -2,7 +2,7 @@ import {useContext} from 'react';
 import {View, FlatList} from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import CategoriesData from '../../data/CategoriesData';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import Category from '../../components/cards/Category';
 import styles from './styles';
 

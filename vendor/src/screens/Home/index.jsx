@@ -1,7 +1,7 @@
 import {useContext} from 'react';
 import {View, Text, TouchableOpacity, ScrollView, Image} from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import SvgDrawerMenu from '../../assets/icons/svg/ic_drawer_menu.svg';
 import SvgMan2 from '../../assets/avatars/svg/av_man_2.svg';
 import CategoriesData from '../../data/CategoriesData';

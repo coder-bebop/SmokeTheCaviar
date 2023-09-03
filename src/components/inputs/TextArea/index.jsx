@@ -1,6 +1,6 @@
 import {memo, useContext} from 'react';
 import {Text, TextInput as RNTextInput} from 'react-native';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import styles from './styles';
 
 // Functional component

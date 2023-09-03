@@ -1,7 +1,7 @@
 import {useContext} from 'react';
 import {View} from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import {STANDARD_SPACING} from '../../config/Constants';
 import {FlatGrid} from 'react-native-super-grid';
 import {scale} from 'react-native-size-matters';

@@ -2,7 +2,7 @@ import {useContext} from 'react';
 import {View, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import Language from '../../components/cards/Language';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import LanguagesData from '../../data/LanguagesData';
 import styles from './styles';
 

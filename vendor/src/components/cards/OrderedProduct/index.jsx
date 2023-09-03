@@ -1,6 +1,6 @@
 import {memo, useContext} from 'react';
 import {View, Text, Image, TouchableOpacity} from 'react-native';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import SvgStar from '../../../assets/icons/svg/ic_star.svg';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
 import styles from './styles';

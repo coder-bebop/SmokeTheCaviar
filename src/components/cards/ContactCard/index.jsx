@@ -1,6 +1,6 @@
 import {memo, useContext} from 'react';
 import {View, Text, Image, TouchableOpacity} from 'react-native';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import SvgPhoneDarkGreen from '../../../assets/icons/svg/ic_phone_dark_green.svg';
 import SvgChatDarkGreen from '../../../assets/icons/svg/ic_chat_dark_green.svg';
 import {

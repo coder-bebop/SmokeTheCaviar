@@ -1,6 +1,6 @@
 import {useContext, memo} from 'react';
 import {View, Text} from 'react-native';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import Lottie from 'lottie-react-native';
 import styles from './styles';
 

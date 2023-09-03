@@ -1,7 +1,7 @@
 import {useContext} from 'react';
 import {ScrollView, View} from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import SvgMan2 from '../../assets/avatars/svg/av_man_2.svg';
 import {STANDARD_USER_AVATAR_WRAPPER_SIZE} from '../../config/Constants';
 import MyProfileData from '../../data/MyProfileData';

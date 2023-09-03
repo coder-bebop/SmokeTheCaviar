@@ -8,7 +8,7 @@ import {
   Image,
 } from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import ArrowLeftWhiteSvg from '../../assets/icons/svg/ic_arrow_left_white.svg';
 import ArrowLeftDarkGreenSvg from '../../assets/icons/svg/ic_arrow_left_dark_green.svg';
 import SvgPhoneIcon from '../../assets/icons/svg/ic_phone_dark_green.svg';

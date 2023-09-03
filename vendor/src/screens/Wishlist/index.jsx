@@ -1,7 +1,7 @@
 import {useContext} from 'react';
 import {View, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import WishlistData from '../../data/WishlistData';
 import WishlistProduct from '../../components/cards/WishlistProduct';
 import Button from '../../components/buttons/Button';

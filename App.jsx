@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import {SafeAreaView} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
-import {ThemeContextProvider} from './src/theming/context_providers/ThemeContextProvider';
+import {ThemeContextProvider} from './src/contexts';
 import Statusbar from './src/components/others/Statusbar';
 import HomeDrawer from './src/navigators/drawers/HomeDrawer';
 import Splash from './src/screens/Splash';

@@ -1,7 +1,7 @@
 import {useContext} from 'react';
 import {View, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import PaymentMethodsData from '../../data/PaymentMethodsData';
 import PaymentMethod from '../../components/cards/PaymentMethod';
 import SectionTitle from '../../components/headings/SectionTitle';

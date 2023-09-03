@@ -1,6 +1,6 @@
 import {memo, useContext} from 'react';
 import {Text, TextInput as RNTextInput, View} from 'react-native';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import EyeOffSvg from '../../../assets/icons/svg/ic_eye_off.svg';
 import styles from './styles';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';

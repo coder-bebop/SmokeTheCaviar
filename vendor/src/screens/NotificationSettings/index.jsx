@@ -3,7 +3,7 @@ import {View, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import {IndependentColors} from '../../config/Colors';
 import SwitchList from '../../components/switches/SwitchList';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import styles from './styles';
 import HorizontalDivider from '../../components/dividers/HorizontalDivider';
 

@@ -2,7 +2,7 @@ import {useContext, useCallback} from 'react';
 import {View, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import PolicyNavigationLink from '../../components/links/PolicyNavigationLink';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import styles from './styles';
 import PoliciesData from '../../data/PoliciesData';
 

@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import OnBoardingData from '../../data/OnBoardingData';
 import OnBoardingItem from '../../components/sliders/OnBoardingItem';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import styles from './styles';
 
 // Functional component

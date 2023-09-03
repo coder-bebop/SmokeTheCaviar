@@ -3,7 +3,7 @@ import {View, Text, Image, TouchableOpacity, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import Modal from 'react-native-modal';
 import StarRating from 'react-native-star-rating-widget';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import StarSvg from '../../assets/icons/svg/ic_star.svg';
 import ChatSvg from '../../assets/icons/svg/ic_chat_dark_green.svg';
 import CloseSvg from '../../assets/icons/svg/ic_close_dark_green.svg';

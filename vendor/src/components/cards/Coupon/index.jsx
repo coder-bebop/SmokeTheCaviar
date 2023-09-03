@@ -1,6 +1,6 @@
 import {memo, useContext} from 'react';
 import {View, Text, Image, ImageBackground} from 'react-native';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import styles from './styles';
 
 // Functional component

@@ -2,7 +2,7 @@ import {useContext} from 'react';
 import {View} from 'react-native';
 import {FlatGrid} from 'react-native-super-grid';
 import * as Animatable from 'react-native-animatable';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import CouponsData from '../../data/CouponsData';
 import {STANDARD_SPACING} from '../../config/Constants';
 import Coupon from '../../components/cards/Coupon';

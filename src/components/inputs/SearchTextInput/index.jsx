@@ -1,7 +1,7 @@
 import {memo, useContext} from 'react';
 import {View, TextInput, TouchableOpacity} from 'react-native';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import SvgSearch from '../../../assets/icons/svg/ic_search_dark_green.svg';
 import styles from './styles';
 

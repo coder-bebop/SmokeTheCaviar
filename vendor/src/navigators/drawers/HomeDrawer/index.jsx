@@ -16,7 +16,7 @@ import HomeBottomTab from '../../tabs/HomeBottomTab';
 import AuthStack from '../../stacks/AuthStack';
 import SupportStack from '../../stacks/SupportStack';
 import PoliciesStack from '../../stacks/PoliciesStack';
-import {ThemeContext} from '../../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../../contexts';
 import HomeLightGreySvg from '../../../assets/icons/svg/ic_home_light_grey.svg';
 import HomeDarkGreenSvg from '../../../assets/icons/svg/ic_home_dark_green.svg';
 import CallLightGreySvg from '../../../assets/icons/svg/ic_call_light_grey.svg';

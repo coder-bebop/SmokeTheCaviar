@@ -4,7 +4,7 @@ import * as Animatable from 'react-native-animatable';
 import Button from '../../components/buttons/Button';
 import TextInput from '../../components/inputs/TextInput';
 import Link from '../../components/links/Link';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import SvgMan2 from '../../assets/avatars/svg/av_man_2.svg';
 import EditDarkGreen from '../../assets/icons/svg/ic_edit_dark_green.svg';
 import {

@@ -6,7 +6,7 @@ import TextInput from '../../components/inputs/TextInput';
 import Link from '../../components/links/Link';
 import ScreenInfo from '../../components/paragraphs/ScreenInfo';
 import OrDivider from '../../components/dividers/OrDivider';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import TextArea from '../../components/inputs/TextArea';
 import styles from './styles';
 import ScreenTitle from '../../components/headings/ScreenTitle';

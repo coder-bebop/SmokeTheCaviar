@@ -3,7 +3,7 @@ import {View, Text, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import DiscSvg from '../../assets/icons/svg/ic_disc_dark_green.svg';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../config/Constants';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import styles from './styles';
 
 // Functional component

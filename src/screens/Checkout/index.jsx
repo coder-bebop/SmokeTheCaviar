@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import CartData from '../../data/CartData';
-import {ThemeContext} from '../../theming/contexts/ThemeContext';
+import {ThemeContext} from '../../contexts';
 import CartProduct from '../../components/cards/CartProduct';
 import HorizontalDivider from '../../components/dividers/HorizontalDivider';
 import Button from '../../components/buttons/Button';
