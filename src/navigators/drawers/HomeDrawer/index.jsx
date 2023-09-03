@@ -27,7 +27,6 @@ import LoginLightGreySvg from '../../../assets/icons/svg/ic_login_light_grey.svg
 import LoginDarkGoldSvg from '../../../assets/icons/svg/ic_login_dark_gold.svg';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
 import styles from './styles';
-import {IndependentColors} from '../../../config/Colors';
 
 // Creating drawer navigator
 const Drawer = createDrawerNavigator();
