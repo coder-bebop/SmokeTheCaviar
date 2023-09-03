@@ -61,12 +61,14 @@ const MyProfileStack = () => {
       <Stack.Screen name="Addresses" component={Addresses} />
       <Stack.Screen name="Orders" component={Orders} />
       <Stack.Screen name="Order" component={Order} />
-      <Stack.Screen name="Invoice" component={Invoice} />
       <Stack.Screen name="Wishlist" component={Wishlist} />
       <Stack.Screen name="Wallet" component={Wallet} />
-      <Stack.Screen name="Coupons" component={Coupons} />
-      <Stack.Screen name="Notifications" component={Notifications} />
       <Stack.Screen name="Messages" component={Messages} />
+      {
+      // <Stack.Screen name="Invoice" component={Invoice} />
+      // <Stack.Screen name="Coupons" component={Coupons} />
+      // <Stack.Screen name="Notifications" component={Notifications} />
+      }
     </Stack.Navigator>
   );
 };

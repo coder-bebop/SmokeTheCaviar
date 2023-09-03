@@ -16,7 +16,7 @@ import {IndependentColors} from '../../config/Colors';
 // Functional component
 const Settings = ({navigation}) => {
   // Using context
-  const {isLightTheme, lightTheme, darkTheme, _toggleTheme} =
+  const {isLightTheme, lightTheme, darkTheme, toggleTheme} =
     useContext(ThemeContext);
 
   // Storing theme config according to the theme mode
@@ -30,7 +30,7 @@ const Settings = ({navigation}) => {
     // Updating local state value
     setIsThemeSwitchOn(previousState => !previousState);
     // Calling function to toggling theme mode(Light & Dark)
-    _toggleTheme();
+    toggleTheme();
   }, [isThemeSwitchOn]);
 
   /*
@@ -84,7 +84,8 @@ const Settings = ({navigation}) => {
         {/* Vertical spacer */}
         <View style={styles.verticalSpacer} />
 
-        {/* Navigation link component */}
+        {
+        /* Navigation link component
         <NavigationLink
           leftIcon={
             <LockDarkGreen
@@ -95,6 +96,7 @@ const Settings = ({navigation}) => {
           label="Languages"
           onPress={() => navigation.navigate('Languages')}
         />
+        */}
 
         {/* Vertical spacer */}
         <View style={styles.verticalSpacer} />
@@ -134,13 +136,14 @@ const Settings = ({navigation}) => {
         {/* Vertical spacer */}
         <View style={styles.verticalSpacer} />
 
-        {/* Section title component */}
+        {
+        /* Section title component
         <SectionTitle title="Media" />
 
-        {/* Vertical spacer */}
+        // Vertical spacer
         <View style={styles.verticalSpacer} />
 
-        {/* Navigation link component */}
+        // Navigation link component
         <NavigationLink
           leftIcon={
             <SoundDarkGreen
@@ -151,10 +154,10 @@ const Settings = ({navigation}) => {
           label="Sound"
         />
 
-        {/* Vertical spacer */}
+        // Vertical spacer
         <View style={styles.verticalSpacer} />
 
-        {/* Navigation link component */}
+        // Navigation link component
         <NavigationLink
           leftIcon={
             <MikeDarkGreen
@@ -165,8 +168,10 @@ const Settings = ({navigation}) => {
           label="Voice"
         />
 
-        {/* Vertical spacer */}
+        // Vertical spacer
         <View style={styles.verticalSpacer} />
+        */
+        }
 
     {/* MODULE TO CHANGE THE THEME ON-SCREEN */}
 

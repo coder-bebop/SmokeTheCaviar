@@ -31,7 +31,7 @@ const ThemeContextProvider = ({children}) => {
   });
 
   // Toggling theme mode(Light/Dark)
-  const _toggleTheme = () => {
+  const toggleTheme = () => {
     // Updating local state
     setTheme({
       ...theme,
@@ -41,7 +41,7 @@ const ThemeContextProvider = ({children}) => {
 
   // Returning context provider
   return (
-    <ThemeContext.Provider value={{...theme, _toggleTheme: _toggleTheme}}>
+    <ThemeContext.Provider value={{...theme, toggleTheme: toggleTheme}}>
       {children}
     </ThemeContext.Provider>
   );
