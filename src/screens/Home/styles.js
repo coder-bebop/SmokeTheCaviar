@@ -27,7 +27,7 @@ export default StyleSheet.create({
     width: SCREEN_WIDTH * 0.8,
     borderBottomColor: DarkThemeColors.darkYellow,
     borderBottomWidth: STANDARD_BORDER_WIDTH,
-    margin: STANDARD_SPACING * 4,
+    marginTop: STANDARD_SPACING * 4,
   },
   brandName: {
     fontWeight: '900',
