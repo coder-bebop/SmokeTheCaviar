@@ -26,21 +26,16 @@ const themeProps = {
 
 const ThemeContext = createContext(themeProps);
 
-// Exporting context provider to provide it's values & methods globally
 const ThemeContextProvider = ({children}) => {
-  // Local state
   const [theme, setTheme] = useState(themeProps);
 
-  // Toggling theme mode(Light/Dark)
   const toggleTheme = () => {
-    // Updating local state
     setTheme({
       ...theme,
       isLightTheme: !theme.isLightTheme,
     });
   };
-
-  // Returning context provider
+  
   return (
     <ThemeContext.Provider value={{...theme, toggleTheme: toggleTheme}}>
       {children}
@@ -48,4 +43,4 @@ const ThemeContextProvider = ({children}) => {
   );
 };
 
-export { ThemeContext, ThemeContextProvider };
+export {ThemeContext, ThemeContextProvider};

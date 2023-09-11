@@ -7,7 +7,6 @@ import ListViewProducts from '../../../screens/ListViewProducts';
 import GridViewProducts from '../../../screens/GridViewProducts';
 import Product from '../../../screens/Product';
 import ProductReviews from '../../../screens/ProductReviews';
-import {IndependentColors} from '../../../config/Colors';
 import {STANDARD_VECTOR_ICON_SIZE} from '../../../config/Constants';
 import {ThemeContext} from '../../../contexts';
 import ArrowLeftWhiteSvg from '../../../assets/icons/svg/ic_arrow_left_white.svg';
@@ -28,7 +27,7 @@ const HomeStack = () => {
   const screenOptions = ({navigation}) => ({
     headerTitleAlign: 'center',
     headerTitleStyle: [styles.headerTitle],
-    headerTintColor: IndependentColors.white,
+    headerTintColor: theme.white,
     headerStyle: [
       {
         backgroundColor: theme.white,

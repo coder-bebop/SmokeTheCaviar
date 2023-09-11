@@ -1,11 +1,16 @@
 import {StyleSheet} from 'react-native';
 import {
+  FONT_SIZE_MD,
+  FONT_SIZE_XL,
   FONT_SIZE_XS,
   POPPINS_REGULAR,
+  SCREEN_WIDTH,
+  STANDARD_BORDER_WIDTH,
   STANDARD_FLEX,
   STANDARD_SPACING,
 } from '../../config/Constants';
 import {scale} from 'react-native-size-matters';
+import {DarkThemeColors} from '../../config/Colors';
 
 // Creating & exporting stylesheet
 export default StyleSheet.create({
@@ -13,10 +18,28 @@ export default StyleSheet.create({
     flex: STANDARD_FLEX,
   },
   header: {
-    flexDirection: 'row',
+    flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'space-between',
-    margin: STANDARD_SPACING * 3,
+    justifyContent: 'center',
+    margin: STANDARD_SPACING * 6,
+  },
+  separatingLine: {
+    width: SCREEN_WIDTH * 0.8,
+    borderBottomColor: DarkThemeColors.darkYellow,
+    borderBottomWidth: STANDARD_BORDER_WIDTH,
+    margin: STANDARD_SPACING * 4,
+  },
+  brandName: {
+    fontWeight: '900',
+    fontFamily: POPPINS_REGULAR,
+    fontSize: FONT_SIZE_XL,
+    color: DarkThemeColors.darkYellow,
+  },
+  brandSlogan: {
+    fontWeight: '100',
+    fontFamily: POPPINS_REGULAR,
+    fontSize: FONT_SIZE_MD,
+    color: DarkThemeColors.darkYellow,
   },
   verticalSpacer: {
     marginVertical: STANDARD_SPACING * 1.5,

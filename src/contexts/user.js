@@ -1,10 +1,10 @@
-// Importing
 import {useState, createContext} from 'react';
 
 const userProps = {
   username: '',
   email: '',
   password: '',
+  profileImage: '',
   paymentMethods: [],
   savedItems: [],
   previousPurchases: [],
